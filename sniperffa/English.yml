@@ -33,13 +33,10 @@ message:
     distance: "&cDistance : &e{0}m"
   allow_teaming: "&a[&dSniperFFA&a] &7Teaming is &a&lALLOWED &7from now on!"
   prohibit_teaming: "&a[&dSniperFFA&a] &7Teaming is &4&lPROHIBITED &7from now on!"
-  join_sub_title: "&eUse this command to change your kits."
-  use_inventory_sorting: "&a[&dSniperFFA&a] &7Please use InventorySorting to edit your inventory layout!"
 #message_end
 #other_start
 bar:
   map: "&fMap"
-  kit: "&fKit"
   time_left: "&fMapChange Time"
 scoreboard:
   kills: "&fKills:"
@@ -54,17 +51,12 @@ lore_vote_count: "&3&lVotes&f: &e&l%int%"
 item:
   inventory_sorting: "&cInventorySorting"
   leave_item: "&cReturn to lobby"
-  kit: "&cKits"
   save: "&aSave"
   reset: "&cReset"
-  kit_default: "&bDefault"
-  kit_archer: "&bArcher"
-  kit_fisher: "&bFisher"
   cancel_vote: "&cReset the voting"
 #item_end
 #inventory_start
 inventory:
-  kit_selection: "&cKit Selection"
   inventory_sorting: "&cInventorySorting"
   vote: "&cVote"
 #inventory_end

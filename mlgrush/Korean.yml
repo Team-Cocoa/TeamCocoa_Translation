@@ -17,10 +17,6 @@ map_2x1_scoreboard:
   - '&f점수:'
   - '&8» &e&l%map_score_1% &8| &e%map_player_1%'
   - '&8» &e&l%map_score_2% &8| &e%map_player_2%'
-map_4x1_scoreboard: '[&aTeamCocoa.kr, &1, &f맵:, &8» &e%map_name% &7(&e%map_mode%&7),
-  &2, &f점수:, &8» &e&l%map_score_1% &8| &e%map_player_1%, &8» &e&l%map_score_2% &8|
-  &e%map_player_2%, &8» &e&l%map_score_3% &8| &e%map_player_3%, &8» &e&l%map_score_4%
-  &8| &e%map_player_4%]'
 item:
   inventory_background: ' '
   arrow_left: '&e«'
@@ -69,58 +65,23 @@ inventory:
   spectate: '&8» &e관전'
 
 prefix: '&a[&dMLGRush&a] '
-no_permission: '&7This command does not exist or is deactivated.'
-build_mode_on: '&aYou can build now.'
-build_mode_off: '&cYou can no longer build now.'
 queue_join: '&a대기열에 입장하셨습니다.'
 queue_leave: '&a대기열에서 퇴장하셨습니다.'
 loading_data: '&c데이터 로딩중입니다. 잠시만 기다려주세요...'
 error: '&c에러가 발생했습니다.'
-restart: '&cThis server is restarting.'
 cannot_use_command: '&c지금은 이 명령어를 사용할 수 없습니다.'
-spawn_set: '&aThe spawn has been set.'
 challenge_1: "&e%player% &a가 당신에게 대결을 신청했습니다.&r\n&e맵 &7: &e%settings_map% &a(&e%settings_rounds%
   라운드&a)."
 challenge_2: '&e%player% &a에게 대결을 신청했습니다.'
 already_challenged: '&c이미 &e%player%&a 에게 대결을 신청하였습니다.'
-already_setting_up_map: '&cYou are already setting up a map.'
 cannot_use_queue: '&c지금은 대기열에 들어갈 수 없습니다.'
 cannot_challenge_players: '&c지금은 대결 신청을 할 수 없습니다.'
 map_generate: '&a맵 생성중 ...'
 death: '&7당신은 죽었습니다.'
 kill: '&c%player_1% &7가 &e%player_2%&7를 죽였습니다.'
 bed_break: '&c%player_1% &7가 &e%player_2% &7의 침대를 제거하였습니다.'
-game_start: "&8&m------------------------------------&r\n \n   &7맵&8: &e%map_name%\n\
-  \   &7모드&8: &e%map_mode%\n   &7라운드&8: &e%map_rounds%\n \n&8&m------------------------------------&r"
+game_start: "&a게임이 시작되었습니다!"
 break_own_bed: '&c자신의 침대는 제거할 수 없습니다.'
 gadget_select: '&e%gadget_name% &a로 설정되었습니다.'
 game_end: '&e%winner% &a가 게임에서 이겼습니다!'
 loading_progress_action_bar: '&8» &e맵 생성중 ... &8> &e%progress%%'
-
-
-setup_max_command_syntax: '&cWrong syntax: /setupmap <2x1, 4x1> <name>'
-setup_icon: '&7Hold an item in your hand that will serve as an icon for this map and
-  type ''&e&enext&7''.'
-setup_first_corner: '&7Go to the lower left corner of the map and type ''&enext&7''.'
-setup_second_corner: '&7Go to the higher right corner of the map and type ''&enext&7''.'
-setup_max_build_height: '&7Go to the maximum build height and type ''&enext&7''.'
-setup_death_height: '&7Go to the death height and type ''&enext&7''.'
-setup_spectator_spawn: '&7Go to the spectator spawn and type ''&enext&7''.'
-setup_spawn_player_1: '&7Go to the spawn of the first player and type ''&enext&7''.'
-setup_spawn_player_2: '&7Go to the spawn of the second player and type ''&enext&7''.'
-setup_spawn_player_3: '&7Go to the spawn of the third player and type ''&enext&7''.'
-setup_spawn_player_4: '&7Go to the spawn of the fourth player and type ''&enext&7''.'
-setup_bed_player_1: '&7Stand on the lower part of the first player''s bed and look
-  at the upper part. Type ''&enext&7''.'
-setup_bed_player_2: '&7Stand on the lower part of the second player''s bed and look
-  at the upper part. Type ''&enext&7''.'
-setup_bed_player_3: '&7Stand on the lower part of the third player''s bed and look
-  at the upper part. Type ''&enext&7''.'
-setup_bed_player_4: '&7Stand on the lower part of the fourth player''s bed and look
-  at the upper part. Type ''&enext&7''.'
-setup_finish: '&aThe setup has been finished!'
-
-invalidLang: '&cInvalid language!'
-loadingLang: '&aLoading your language from your minecraft...'
-loadedLang: '&aNow your language is: &e{0}'
-reloaded: '&aReloaded!'
