@@ -1,0 +1,62 @@
+#message_start
+message:
+  map:
+    change_minutes: "&a[&dSniperFFA&a] &a맵이 &e&l%time%&a분 뒤에 변경 됩니다!"
+    change_minute: "&a[&dSniperFFA&a] &a맵이 &e&l%time%&a분 뒤에 변경 됩니다!"
+    change_seconds: "&a[&dSniperFFA&a] &a맵이 &e&l%time%&a초 뒤에 변경 됩니다!"
+    change_second: "&a[&dSniperFFA&a] &a맵이 &e&l%time%&a초 뒤에 변경 됩니다!"
+  kill:
+    player: "&a[&dSniperFFA&a] &4{0} &c에게 죽었습니다!"
+    notice: "&a[&dSniperFFA&a] &e&l{0} &c가 &e&l{1} &c에게 죽었습니다! &7(거리 : {2}m)"
+    streak: "&a[&dSniperFFA&a] &c{0} &7가 &c[&4{1}&c] &7연속 킬 중입니다!"
+  vote:
+    success: "&a[&dSniperFFA&a] &e&l%map% &a맵에 투표하였습니다!"
+    reset: "&a[&dSniperFFA&a] &c투표가 취소되었습니다."
+    invalid: "&a[&dSniperFFA&a] &c먼저 맵을 투표해주세요!"
+    cannot: "&a[&dSniperFFA&a] &c지금 투표를 할 수 없습니다!"
+    cannot_vote_map: "&a[&dSniperFFA&a] &c이 맵은 현재 투표할 수 없습니다!"
+    ended: "&a[&dSniperFFA&a] &a맵 투표가 종료되었습니다!"
+    command: "&6/vote 명령어로 원하는 맵에 투표할 수 있습니다!"
+    map_selected: "&a[&dSniperFFA&a] &3다음 맵 &8: &e&l%map%"
+    current_info: "&e&l---------- 투표 현황 ----------"
+    number_of_vote: "&e&l%map% &8: &e&l%int% &3&l표"
+    end_minutes: "&a[&dSniperFFA&a] &a맵 투표가 &e&l%time%&a 분 뒤에 종료됩니다!"
+    end_minute: "&a[&dSniperFFA&a] &a맵 투표가 &e&l%time%&a 분 뒤에 종료됩니다!"
+    end_seconds: "&a[&dSniperFFA&a] &a맵 투표가 &e&l%time%&a 초 뒤에 종료됩니다!"
+    end_second: "&a[&dSniperFFA&a] &a맵 투표가 &e&l%time%&a 초 뒤에 종료됩니다!"
+  setting:
+    saved: "&a[&dSniperFFA&a] &a설정을 저장하였습니다."
+    reset: "&a[&dSniperFFA&a] &c설정이 초기화되었습니다."
+    error: "&a[&dSniperFFA&a] &c오류가 발생하였습니다."
+  title:
+    headshot: "&c헤드샷!"
+    distance: "&c거리 : &e{0}m"
+  allow_teaming: "&a[&dSniperFFA&a] &7지금부터 티밍을 &a&l허용 &7합니다!"
+  prohibit_teaming: "&a[&dSniperFFA&a] &7지금부터 티밍을 &4&l금지 &7합니다!"
+#message_end
+#other_start
+bar:
+  map: "&f맵"
+  time_left: "&f맵 변경시간"
+scoreboard:
+  kills: "&f킬 횟수"
+  deaths: "&f죽은 횟수:"
+  longest: "&f최장 저격 거리:"
+  best_kill_streak: "&f최대 연속 킬 횟수"
+  teaming_allow: "&a&l티밍을 허용합니다"
+  teaming_prohibit: "&4&l티밍을 금지합니다"
+lore_vote_count: "&3&l투표수&f: &e&l%int%"
+#other_end
+#item_start
+item:
+  inventory_sorting: "&c인벤토리 설정"
+  leave_item: "&c로비로 돌아가기"
+  save: "&c저장"
+  reset: "&c초기화"
+  cancel_vote: "&c투표 초기화"
+#item_end
+#inventory_start
+inventory:
+  inventory_sorting: "&c인벤토리 설정"
+  vote: "&c투표"
+#inventory_end

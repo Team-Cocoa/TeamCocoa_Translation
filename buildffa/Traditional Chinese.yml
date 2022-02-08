@@ -1,0 +1,63 @@
+#message_start
+message:
+  map:
+    change_minutes: "&a[&dBuildFFA&a] &a地圖將在 &e&l%time%&a 分鐘後更改!"
+    change_minute: "&a[&dBuildFFA&a] &a地圖將在 &e&l%time%&a 鐘後更改!"
+    change_seconds: "&a[&dBuildFFA&a] &a地圖將在 &e&l%time%&a 秒後更改!"
+    change_second: "&a[&dBuildFFA&a] &a地圖將在 &e&l%time%&a 秒後更改!"
+  kill:
+    player: "&a[&dBuildFFA&a] &c你被 &4%KILLER%&0(&c%KILLERHEALTH%❤&0) &c殺了"
+    streak: "&a[&dBuildFFA&a] &c%PLAYER% &7達成 &4%KILLSTREAK% &7連殺!"
+    streak_broken: "&a[&dBuildFFA&a] &c%PLAYER%&c[&4%KILLSTREAK%&c] &7的連殺被 &8%KILLER%&7 中斷了!"
+  vote:
+    success: "&a[&dBuildFFA&a] &a成功將票投給 &e&l%map% &a!"
+    reset: "&a[&dBuildFFA&a] &c已成功取消投票."
+    invalid: "&a[&dBuildFFA&a] &c取消投票之前要先有投過票!"
+    cannot: "&a[&dBuildFFA&a] &c你目前無法進行投票!"
+    cannot_vote_map: "&a[&dBuildFFA&a] &c你無法投這張地圖!"
+    ended: "&a[&dBuildFFA&a] &a投票結束!"
+    command: "&6使用 /vote 來投你最想要玩的地圖!"
+    map_selected: "&a[&dBuildFFA&a] &3下一張地圖 &8: &e&l%map%"
+    current_info: "&e&l---------- 投票 ----------"
+    number_of_vote: "&e&l%map% &8: &e&l%int% &3&l個人"
+    end_minutes: "&a[&dBuildFFA&a] &a投票將在 &e&l%time%&a 分鐘後結束!"
+    end_minute: "&a[&dBuildFFA&a] &aa投票將在 &e&l%time%&a 分鐘後結束!"
+    end_seconds: "&a[&dBuildFFA&a] &aa投票將在 &e&l%time%&a 秒後結束!"
+    end_second: "&a[&dBuildFFA&a] &aa投票將在 &e&l%time%&a 秒後結束!"
+  setting:
+    saved: "&a[&dBuildFFA&a] &a您的設定已保存"
+    reset: "&a[&dBuildFFA&a] &c您的設定已重置"
+    error: "&a[&dBuildFFA&a] &c發生錯誤"
+  join_sub_title: "&e使用此指令更換職業"
+  use_inventory_sorting: "&a[&dBuildFFA&a] &7請使用 &c編輯排版 &7來進行設定!"
+#message_end
+#other_start
+bar:
+  map: "&f地圖"
+  kit: "&f目前職業"
+  time_left: "&f地圖輪替時間"
+scoreboard:
+  kills: "&f擊殺數:"
+  best_kill_streak: "&f最佳連續擊殺數:"
+  teaming_allow: "&a&l允許組隊"
+  teaming_prohibit: "&4&l禁止組隊"
+lore_vote_count: "&3&l票數&f: &e&l%int%"
+#other_end
+#item_start
+item:
+  inventory_sorting: "&c編輯排版"
+  leave_item: "&c返回大廳"
+  kit: "&c職業"
+  save: "&a保存"
+  reset: "&c重置"
+  kit_default: "&b預設"
+  kit_archer: "&b弓兵"
+  kit_fisher: "&b漁夫"
+  cancel_vote: "&c重置投票"
+#item_end
+#inventory_start
+inventory:
+  kit_selection: "&c選擇職業"
+  inventory_sorting: "&c排版設定"
+  vote: "&c投票"
+#inventory_end

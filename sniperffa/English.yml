@@ -1,0 +1,70 @@
+#message_start
+message:
+  map:
+    change_minutes: "&a[&dSniperFFA&a] &aThe map will be changed in &e&l%time%&a minutes!"
+    change_minute: "&a[&dSniperFFA&a] &aThe map will be changed in &e&l%time%&a minute!"
+    change_seconds: "&a[&dSniperFFA&a] &aThe map will be changed in &e&l%time%&a seconds!"
+    change_second: "&a[&dSniperFFA&a] &aThe map will be changed in &e&l%time%&a second!"
+  kill:
+    player: "&a[&dSniperFFA&a] &cYou were killed by &4{0}&c!"
+    notice: "&a[&dSniperFFA&a] &e&l{0} &cis killed by &e&l{1}&c! &7(distance : {2}m)"
+    streak: "&a[&dSniperFFA&a] &c{0} &7made &c[&4{1}&c] &7killstreak!"
+  vote:
+    success: "&a[&dSniperFFA&a] &aYou successfully voted for &e&l%map% &a!"
+    reset: "&a[&dSniperFFA&a] &cYour vote was successfully canceled."
+    invalid: "&a[&dSniperFFA&a] &cPlease vote first before cancel the voting!"
+    cannot: "&a[&dSniperFFA&a] &cYou can't vote now!"
+    cannot_vote_map: "&a[&dSniperFFA&a] &cYou can't vote for this map!"
+    ended: "&a[&dSniperFFA&a] &aVoting has been ended!"
+    command: "&6Use /vote for the map you want to play!"
+    map_selected: "&a[&dSniperFFA&a] &3Next map &8: &e&l%map%"
+    current_info: "&e&l---------- Voting status ----------"
+    number_of_vote: "&e&l%map% &8: &e&l%int% &3&lVotes"
+    end_minutes: "&a[&dSniperFFA&a] &aVoting will be ended in &e&l%time%&a minutes!"
+    end_minute: "&a[&dSniperFFA&a] &aVoting will be ended in &e&l%time%&a minute!"
+    end_seconds: "&a[&dSniperFFA&a] &aVoting will be ended in &e&l%time%&a seconds!"
+    end_second: "&a[&dSniperFFA&a] &aVoting will be ended in &e&l%time%&a second!"
+  setting:
+    saved: "&a[&dSniperFFA&a] &aYour settings has been saved."
+    reset: "&a[&dSniperFFA&a] &cYour settings has been reset."
+    error: "&a[&dSniperFFA&a] &cAn error has occurred."
+  title:
+    headshot: "&cHeadShot!"
+    distance: "&cDistance : &e{0}m"
+  allow_teaming: "&a[&dSniperFFA&a] &7Teaming is &a&lALLOWED &7from now on!"
+  prohibit_teaming: "&a[&dSniperFFA&a] &7Teaming is &4&lPROHIBITED &7from now on!"
+  join_sub_title: "&eUse this command to change your kits."
+  use_inventory_sorting: "&a[&dSniperFFA&a] &7Please use InventorySorting to edit your inventory layout!"
+#message_end
+#other_start
+bar:
+  map: "&fMap"
+  kit: "&fKit"
+  time_left: "&fMapChange Time"
+scoreboard:
+  kills: "&fKills:"
+  deaths: "&fDeaths:"
+  longest: "&fPersonal Longest Shot:"
+  best_kill_streak: "&fBest Killstreak:"
+  teaming_allow: "&a&lTeaming is Allowed"
+  teaming_prohibit: "&4&lTeaming is Prohibited"
+lore_vote_count: "&3&lVotes&f: &e&l%int%"
+#other_end
+#item_start
+item:
+  inventory_sorting: "&cInventorySorting"
+  leave_item: "&cReturn to lobby"
+  kit: "&cKits"
+  save: "&aSave"
+  reset: "&cReset"
+  kit_default: "&bDefault"
+  kit_archer: "&bArcher"
+  kit_fisher: "&bFisher"
+  cancel_vote: "&cReset the voting"
+#item_end
+#inventory_start
+inventory:
+  kit_selection: "&cKit Selection"
+  inventory_sorting: "&cInventorySorting"
+  vote: "&cVote"
+#inventory_end

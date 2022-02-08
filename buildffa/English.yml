@@ -1,0 +1,63 @@
+#message_start
+message:
+  map:
+    change_minutes: "&a[&dBuildFFA&a] &aThe map will be changed in &e&l%time%&a minutes!"
+    change_minute: "&a[&dBuildFFA&a] &aThe map will be changed in &e&l%time%&a minute!"
+    change_seconds: "&a[&dBuildFFA&a] &aThe map will be changed in &e&l%time%&a seconds!"
+    change_second: "&a[&dBuildFFA&a] &aThe map will be changed in &e&l%time%&a second!"
+  kill:
+    player: "&a[&dBuildFFA&a] &cYou were killed by &4%KILLER%&0(&c%KILLERHEALTH%❤&0)."
+    streak: "&a[&dBuildFFA&a] &c%PLAYER% &7 made &c[&4%KILLSTREAK%&c] &7killstreak!"
+    streak_broken: "&a[&dBuildFFA&a] &7The &cKillstreak &7of &c%PLAYER%&c[&4%KILLSTREAK%&c] &7has been terminated by &8%KILLER%&7!"
+  vote:
+    success: "&a[&dBuildFFA&a] &aYou successfully voted for &e&l%map% &a!"
+    reset: "&a[&dBuildFFA&a] &cYour vote was successfully canceled."
+    invalid: "&a[&dBuildFFA&a] &cPlease vote first before cancel the voting!"
+    cannot: "&a[&dBuildFFA&a] &cYou can't vote now!"
+    cannot_vote_map: "&a[&dBuildFFA&a] &cYou can't vote for this map!"
+    ended: "&a[&dBuildFFA&a] &aVoting has been ended!"
+    command: "&6Use /vote for the map you want to play!"
+    map_selected: "&a[&dBuildFFA&a] &3Next map &8: &e&l%map%"
+    current_info: "&e&l---------- Voting status ----------"
+    number_of_vote: "&e&l%map% &8: &e&l%int% &3&lVotes"
+    end_minutes: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a minutes!"
+    end_minute: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a minute!"
+    end_seconds: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a seconds!"
+    end_second: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a second!"
+  setting:
+    saved: "&a[&dBuildFFA&a] &aYour settings has been saved."
+    reset: "&a[&dBuildFFA&a] &cYour settings has been reset."
+    error: "&a[&dBuildFFA&a] &cAn error has occurred."
+  join_sub_title: "&eUse this command to change your kits."
+  use_inventory_sorting: "&a[&dBuildFFA&a] &7Please use InventorySorting to edit your inventory layout!"
+#message_end
+#other_start
+bar:
+  map: "&fMap"
+  kit: "&fKit"
+  time_left: "&fMapChange Time"
+scoreboard:
+  kills: "&fKills:"
+  best_kill_streak: "&fBest Killstreak:"
+  teaming_allow: "&a&lTeaming is Allowed"
+  teaming_prohibit: "&4&lTeaming is Prohibited"
+lore_vote_count: "&3&lVotes&f: &e&l%int%"
+#other_end
+#item_start
+item:
+  inventory_sorting: "&cInventorySorting"
+  leave_item: "&cReturn to lobby"
+  kit: "&cKits"
+  save: "&aSave"
+  reset: "&cReset"
+  kit_default: "&bDefault"
+  kit_archer: "&bArcher"
+  kit_fisher: "&bFisher"
+  cancel_vote: "&cReset the voting"
+#item_end
+#inventory_start
+inventory:
+  kit_selection: "&cKit Selection"
+  inventory_sorting: "&cInventorySorting"
+  vote: "&cVote"
+#inventory_end

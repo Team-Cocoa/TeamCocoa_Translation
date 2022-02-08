@@ -1,0 +1,63 @@
+#message_start
+message:
+  map:
+    change_minutes: "&a[&dBuildFFA&a] &aマップは&e&l%time%&a分後に変更されます！"
+    change_minute: "&a[&dBuildFFA&a] &aマップは&e&l%time%&a分後に変更されます！"
+    change_seconds: "&a[&dBuildFFA&a] &aマップは&e&l%time%&a秒後に変更されます！"
+    change_second: "&a[&dBuildFFA&a] &aマップは&e&l%time%&a秒後に変更されます！"
+  kill:
+    player: "&a[&dBuildFFA&a] &cあなたは&4%KILLER%&0(&c%KILLERHEALTH%❤&0)&cによって死んでしまった。"
+    streak: "&a[&dBuildFFA&a] &c%PLAYER% &7は&c[&4%KILLSTREAK%&c] &7回連続でキルしました！"
+    streak_broken: "&a[&dBuildFFA&a] &c%PLAYER%&c[&4%KILLSTREAK%&c]&7の&c連続キル&7は&8%KILLER%&7によって終わりました！"
+  vote:
+    success: "&a[&dBuildFFA&a] &aYou successfully voted for &e&l%map% &a!"
+    reset: "&a[&dBuildFFA&a] &cYour vote was successfully canceled."
+    invalid: "&a[&dBuildFFA&a] &cPlease vote first before cancel the voting!"
+    cannot: "&a[&dBuildFFA&a] &cYou can't vote now!"
+    cannot_vote_map: "&a[&dBuildFFA&a] &cYou can't vote for this map!"
+    ended: "&a[&dBuildFFA&a] &aVoting has been ended!"
+    command: "&6Use /vote for the map which You want to play!"
+    map_selected: "&a[&dBuildFFA&a] &3Next map &8: &e&l%map%"
+    current_info: "&e&l---------- Voting status ----------"
+    number_of_vote: "&e&l%map% &8: &e&l%int% &3&lVotes"
+    end_minutes: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a minutes!"
+    end_minute: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a minute!"
+    end_seconds: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a seconds!"
+    end_second: "&a[&dBuildFFA&a] &aVoting will be ended in &e&l%time%&a second!"
+  setting:
+    saved: "&a[&dBuildFFA&a] &a設定はセーブされました。"
+    reset: "&a[&dBuildFFA&a] &c設定がリセットされました。"
+    error: "&a[&dBuildFFA&a] &cエラーが発生しました。"
+  join_sub_title: "&eこのコマンドを使用してキットを変更します。"
+  use_inventory_sorting: "&a[&dBuildFFA&a] &7インベントリの並び替えを利用して、インベントリのレイアウトを編集してください！"
+#message_end
+#other_start
+bar:
+  map: "&fマップ"
+  kit: "&fキット"
+  time_left: "&fマップ変更時間"
+scoreboard:
+  kills: "&fキル数:"
+  best_kill_streak: "&f最高の連続キル数:"
+  teaming_allow: "&a&lチーミングは可能です"
+  teaming_prohibit: "&4&lチーミングは禁止です"
+lore_vote_count: "&3&lVotes&f: &e&l%int%"
+#other_end
+#item_start
+item:
+  inventory_sorting: "&cインベントリの並び替え"
+  leave_item: "&cロビーに戻る"
+  kit: "&cキット"
+  save: "&a保存"
+  reset: "&cリセット"
+  kit_default: "&bデフォルト"
+  kit_archer: "&bアーチャー"
+  kit_fisher: "&bフィッシャー"
+  cancel_vote: "&cReset the voting"
+#item_end
+#inventory_start
+inventory:
+  kit_selection: "&cキットの選択"
+  inventory_sorting: "&cインベントリの並び替え"
+  vote: "&cVote"
+#inventory_end
