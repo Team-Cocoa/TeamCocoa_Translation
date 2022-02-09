@@ -34,6 +34,7 @@ item:
   settings_inventory_sorting: '&8» &eInventory Sorting'
   settings_map: '&8» &eMap'
   settings_rounds: '&8» &eRounds'
+  settings_gadgets: '&8» &eGadgets'
   gadgets_stick: '&8» &eStick'
   gadgets_blocks: '&8» &eBlocks'
   sorting_save: '&8» &aSave'

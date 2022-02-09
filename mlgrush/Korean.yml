@@ -34,6 +34,7 @@ item:
   settings_inventory_sorting: '&8» &e인벤토리 설정'
   settings_map: '&8» &e맵 설정'
   settings_rounds: '&8» &e라운드 설정'
+  settings_gadgets: '&8» &e치장품'
   gadgets_stick: '&8» &e무기 치장품'
   gadgets_blocks: '&8» &e블럭 치장품'
   sorting_save: '&8» &a저장'

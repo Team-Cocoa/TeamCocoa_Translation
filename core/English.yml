@@ -2,3 +2,11 @@ language:
   change:
     message: '&aYour language is now English!'
     first: '&7You can change your language again by using this command.'
+
+lobby:
+  item:
+    challenger: '&eChallenger'
+    kitpvp: '&eKitPvP'
+    mlgrush: '&eMLGRush'
+  inventory:
+    challenger: '&eChallenger'
