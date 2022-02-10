@@ -71,7 +71,7 @@ queue_leave: '&a已取消匹配對手!'
 loading_data: '&cYour data is being loaded, please wait.'
 error: '&c發生錯誤! 請確認排版無誤!'
 cannot_use_command: '&cYou can''t use this command now.'
-challenge_1: "&e%player%&7 向你發起挑戰! (&e%settings_map%、&e%settings_rounds%&arounds)&r"
+challenge_1: "&e%player%&a 向你發起挑戰! (&e%settings_map%、&e%settings_rounds%&arounds)&r"
 challenge_2: '&a你向 &e%player%&7發起挑戰!'
 already_challenged: '&c你已經向 &e%player%&c 發過挑戰，正在等待回覆...'
 cannot_use_queue: '&cYou cannot enter the queue now.'

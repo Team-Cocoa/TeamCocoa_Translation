@@ -71,7 +71,7 @@ queue_leave: '&a你退出了游戏匹配。'
 loading_data: '&cYour data is being loaded, please wait.'
 error: '&c一个未知的错误出现。'
 cannot_use_command: '&cYou can''t use this command now.'
-challenge_1: "&a你收到了一个来自 &e%player%&7 的挑战！(&e%settings_map%、&e%settings_rounds%&arounds)&r\n&7点击 &e%player%&7 t即可接受挑战！"
+challenge_1: "&a你收到了一个来自 &e%player%&a 的挑战！(&e%settings_map%、&e%settings_rounds%&arounds)&r\n&7点击 &e%player%&7 即可接受挑战！"
 challenge_2: '&a你向 &e%player%&7 发起了挑战。'
 already_challenged: '&cYou already challenged &e%player%&a.'
 cannot_use_queue: '&cYou cannot enter the queue now.'
