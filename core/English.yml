@@ -10,3 +10,5 @@ lobby:
     mlgrush: '&eMLGRush'
   inventory:
     challenger: '&eChallenger'
+  message:
+    kitpvp_isnt_ready: "&cKitPvP isn't ready!"

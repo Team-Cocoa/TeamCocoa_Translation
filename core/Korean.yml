@@ -2,6 +2,7 @@ language:
   change:
     message: '&a당신의 언어는 한국어로 설정되었습니다!'
     first: '&7이 커맨드를 사용하여 언어를 다시 변경할 수 있습니다.'
+
 lobby:
   item:
     challenger: '&e대결 신청'
@@ -9,3 +10,5 @@ lobby:
     mlgrush: '&eMLGRush'
   inventory:
     challenger: '&e대결 신청'
+  message:
+    kitpvp_isnt_ready: '&cKitPvP는 아직 준비중 입니다!'
