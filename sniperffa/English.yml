@@ -7,16 +7,16 @@ message:
     change_second: "&a[&dSniperFFA&a] &aThe map will be changed in &e&l%time%&a second!"
   kill:
     player: "&a[&dSniperFFA&a] &cYou were killed by &4{0}&c!"
-    notice: "&a[&dSniperFFA&a] &e&l{0} &cis killed by &e&l{1}&c! &7(distance : {2}m)"
+    notice: "&a[&dSniperFFA&a] &e&l{0} &chas been killed by &e&l{1}&c! &7(distance : {2}m)"
     streak: "&a[&dSniperFFA&a] &c{0} &7made &c[&4{1}&c] &7killstreak!"
   vote:
-    success: "&a[&dSniperFFA&a] &aYou successfully voted for &e&l%map% &a!"
+    success: "&a[&dSniperFFA&a] &aYou have successfully voted for &e&l%map% &a!"
     reset: "&a[&dSniperFFA&a] &cYour vote was successfully canceled."
-    invalid: "&a[&dSniperFFA&a] &cPlease vote first before cancel the voting!"
+    invalid: "&a[&dSniperFFA&a] &cYou need to vote first in order to cancel it!"
     cannot: "&a[&dSniperFFA&a] &cYou can't vote now!"
     cannot_vote_map: "&a[&dSniperFFA&a] &cYou can't vote for this map!"
     ended: "&a[&dSniperFFA&a] &aVoting has been ended!"
-    command: "&6Use /vote for the map you want to play!"
+    command: "&6Use the command /vote for the map you want to play!"
     map_selected: "&a[&dSniperFFA&a] &3Next map &8: &e&l%map%"
     current_info: "&e&l---------- Voting status ----------"
     number_of_vote: "&e&l%map% &8: &e&l%int% &3&lVotes"
@@ -53,7 +53,7 @@ item:
   leave_item: "&cReturn to lobby"
   save: "&aSave"
   reset: "&cReset"
-  cancel_vote: "&cReset the voting"
+  cancel_vote: "&cCancel the voting"
 #item_end
 #inventory_start
 inventory:
