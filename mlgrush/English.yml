@@ -66,23 +66,22 @@ inventory:
   spectate: '&8» &eSpectate'
 
 prefix: '&a[&dMLGRush&a] '
-queue_join: '&aYou entered the queue.'
-queue_leave: '&aYou left the queue.'
-loading_data: '&cYour data is being loaded, please wait.'
+queue_join: '&aYou have entered the queue.'
+queue_leave: '&aYou have left the queue.'
+loading_data: '&cYour data is being loaded, please wait...'
 error: '&cAn error occurred.'
 cannot_use_command: '&cYou can''t use this command now.'
-challenge_1: "&e%player% &achallenged you &aon &e%settings_map% &a(&e%settings_rounds%
-  rounds&a)."
-challenge_2: '&aYou challenged %player%.'
-already_challenged: '&cYou already challenged &e%player%&a.'
+challenge_1: "&e%player% &ahas challenged you &aon &e%settings_map% &a(&e%settings_rounds% rounds&a)."
+challenge_2: '&aYou have challenged %player%.'
+already_challenged: '&cYou have already challenged &e%player%&a.'
 cannot_use_queue: '&cYou cannot enter the queue now.'
 cannot_challenge_players: '&cYou cannot challenge players now.'
 map_generate: '&aGenerating map...'
 break_own_bed: '&cYou cannot break your own bed!'
-gadget_select: '&aYou selected %gadget_name%&a.'
+gadget_select: '&aYou have selected %gadget_name%&a.'
 death: '&7You died.'
 kill: '&c%player_1% &7killed &e%player_2%&7.'
 bed_break: '&c%player_1% &7broke &e%player_2%''s &7bed.'
 game_start: "&aThe game has started!"
-game_end: '&e%winner% &awon the game.'
-loading_progress_action_bar: '&8» &eLoading... &8> &e%progress%%'
+game_end: '&e%winner% &ahas won the game.'
+loading_progress_action_bar: '&8» &eLoading the map... &8> &e%progress%%'
