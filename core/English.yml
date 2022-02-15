@@ -1,7 +1,7 @@
 language:
   change:
-    message: '&aYour language is now English!'
-    first: '&7You can change your language again by using this command.'
+    message: '&aYour language has been set up to English!'
+    first: '&7You can change your language by using this command.'
 
 lobby:
   item:
