@@ -28,13 +28,13 @@ message:
     saved: "&a[&dBuildFFA&a] &a설정을 저장하였습니다."
     reset: "&a[&dBuildFFA&a] &c설정이 초기화되었습니다."
     error: "&a[&dBuildFFA&a] &c오류가 발생하였습니다."
-  join_sub_title: "&e명령어를 사용하여 킷을 변경할 수 있습니다."
+  join_sub_title: "&e명령어를 사용하여 키트을 변경할 수 있습니다."
   use_inventory_sorting: "&a[&dBuildFFA&a] &7인벤토리 설정 아이템을 사용하여 인벤토리를 수정해주세요!"
 #message_end
 #other_start
 bar:
   map: "&f맵"
-  kit: "&f킷"
+  kit: "&f키트"
   time_left: "&f맵 변경시간"
 scoreboard:
   kills: "&f킬 횟수"
@@ -47,17 +47,17 @@ lore_vote_count: "&3&l투표수&f: &e&l%int%"
 item:
   inventory_sorting: "&c인벤토리 설정"
   leave_item: "&c로비로 돌아가기"
-  kit: "&c킷 선택"
+  kit: "&c키트 선택"
   save: "&c저장"
   reset: "&c초기화"
-  kit_default: "&b기본 킷"
-  kit_archer: "&b아처 킷"
-  kit_fisher: "&b낚시꾼 킷"
-  cancel_vote: "&c투표 초기화"
+  kit_default: "&b기본 키트"
+  kit_archer: "&b아처 키트"
+  kit_fisher: "&b낚시꾼 키트"
+  cancel_vote: "&c투표 취소"
 #item_end
 #inventory_start
 inventory:
-  kit_selection: "&c킷 선택"
+  kit_selection: "&c키트 선택"
   inventory_sorting: "&c인벤토리 설정"
   vote: "&c투표"
 #inventory_end
