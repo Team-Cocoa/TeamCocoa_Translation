@@ -53,7 +53,7 @@ item:
   leave_item: "&c로비로 돌아가기"
   save: "&c저장"
   reset: "&c초기화"
-  cancel_vote: "&c투표 초기화"
+  cancel_vote: "&c투표 취소"
 #item_end
 #inventory_start
 inventory:
