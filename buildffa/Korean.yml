@@ -28,7 +28,7 @@ message:
     saved: "&a[&dBuildFFA&a] &a설정을 저장하였습니다."
     reset: "&a[&dBuildFFA&a] &c설정이 초기화되었습니다."
     error: "&a[&dBuildFFA&a] &c오류가 발생하였습니다."
-  join_sub_title: "&e명령어를 사용하여 키트을 변경할 수 있습니다."
+  join_sub_title: "&e명령어를 사용하여 키트를 변경할 수 있습니다."
   use_inventory_sorting: "&a[&dBuildFFA&a] &7인벤토리 설정 아이템을 사용하여 인벤토리를 수정해주세요!"
 #message_end
 #other_start
