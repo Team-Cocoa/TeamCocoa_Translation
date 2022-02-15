@@ -10,13 +10,13 @@ message:
     streak: "&a[&dBuildFFA&a] &c%PLAYER% &7 made &c[&4%KILLSTREAK%&c] &7killstreak!"
     streak_broken: "&a[&dBuildFFA&a] &7The &cKillstreak &7of &c%PLAYER%&c[&4%KILLSTREAK%&c] &7has been terminated by &8%KILLER%&7!"
   vote:
-    success: "&a[&dBuildFFA&a] &aYou successfully voted for &e&l%map% &a!"
+    success: "&a[&dBuildFFA&a] &aYou have successfully voted for &e&l%map% &a!"
     reset: "&a[&dBuildFFA&a] &cYour vote was successfully canceled."
-    invalid: "&a[&dBuildFFA&a] &cPlease vote first before cancel the voting!"
+    invalid: "&a[&dBuildFFA&a] &cYou need to vote first in order to cancel it!"
     cannot: "&a[&dBuildFFA&a] &cYou can't vote now!"
     cannot_vote_map: "&a[&dBuildFFA&a] &cYou can't vote for this map!"
     ended: "&a[&dBuildFFA&a] &aVoting has been ended!"
-    command: "&6Use /vote for the map you want to play!"
+    command: "&6Use the command /vote for the map you want to play!"
     map_selected: "&a[&dBuildFFA&a] &3Next map &8: &e&l%map%"
     current_info: "&e&l---------- Voting status ----------"
     number_of_vote: "&e&l%map% &8: &e&l%int% &3&lVotes"
@@ -53,7 +53,7 @@ item:
   kit_default: "&bDefault"
   kit_archer: "&bArcher"
   kit_fisher: "&bFisher"
-  cancel_vote: "&cReset the voting"
+  cancel_vote: "&cCacel the voting"
 #item_end
 #inventory_start
 inventory:
