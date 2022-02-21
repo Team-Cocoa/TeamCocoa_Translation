@@ -12,3 +12,7 @@ lobby:
     challenger: '&eChallenger'
   message:
     kitpvp_isnt_ready: "&cKitPvP isn't ready!"
+    moving_to_server: "&aMoving you to server..."
+    already_challenged: '&cYou already challenged to this player!'
+    challenge_send: '&aYou have successfully challenged to &e{0} &a!'
+    challenge_receive: '&e{0} &ahas challenged you!'
