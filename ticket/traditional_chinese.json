@@ -52,7 +52,7 @@
             "channelLimit": "**無法建立客服單！請告知管理員！**",
             "channelExist": "**你已經建立過客服單！**",
             "support": {
-                "ticketName": "support",
+                "ticketName": "支援單",
                 "ticketTopic": "{ticketOwner}建立的支援單！請告訴我們你的問題及想法！",
                 "ticketContent": "**已建立客服單！**\n",
                 "embed_description": [
@@ -67,7 +67,7 @@
                 ]
             },
             "report": {
-                "ticketName": "report",
+                "ticketName": "舉報單",
                 "ticketTopic": "如果你發現Bug或是想要檢舉玩家，請在此留言！",
                 "ticketContent": "**已建立客服單！**\n",
                 "embed_description": [
@@ -84,7 +84,7 @@
                 ]
             },
             "application": {
-                "ticketName": "application",
+                "ticketName": "申請單",
                 "ticketTopic": "{ticketOwner}建立的Rank申請單！請告訴我們你想申請什麼Rank！",
                 "ticketContent": "**已建立客服單！**\n",
                 "embed_description": [
