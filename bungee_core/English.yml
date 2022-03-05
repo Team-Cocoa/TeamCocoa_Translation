@@ -1,0 +1,12 @@
+joinme:
+  cannot_use_joinme: '&a[&dJoinMe&a] &cYou must need &6Premium Rank &cto use this command!'
+  cooldown: '&a[&dJoinMe&a] &cYou can use this command on every 5 minutes!'
+  invalid_server: "&a[&dJoinMe&a] &cYou can't use JoinMe on this server!"
+  hover_message: '&aClick here to join!'
+  message:
+    - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+    - ''
+    - '{0} &ais playing on &e{1} &a!'
+    - '&6-> &eClick here to join &6<-'
+    - ' '
+    - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
