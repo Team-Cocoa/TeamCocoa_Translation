@@ -1,0 +1,171 @@
+{
+    "buttonCommands": {
+        "support": {
+            "application_label": "Rank Application",
+            "application_description": "If you want to apply or buy a rank, please open this ticket!",
+            "report_label": "Player or Bug Report",
+            "report_description": "Open a ticket to report a bug or a player!",
+            "support_label": "Support",
+            "support_description": "Do you have a problem? Open this ticket, feel free to tell us!",
+            "placeholder": "Please select a ticket type!",
+            "embed_description": [
+                "<:checkmenu:948811814655893515> __**If you need a help or there are some things to request?**__",
+                "> <:close:948394548588064838> Feel free to make a support ticket! Our staff team would do our best to help you.",
+                "> <:ban_menu:948463237991657502> Trolling in ticket would result in some punishments!",
+                "",
+                "<:checkmenu:948811814655893515> __**Did you find a bug? Did you find a player who violates the rule?**__",
+                "> <:close:948394548588064838> Make a report ticket and tell us! We would take care of it as fast as possible.",
+                "> <:report_menu:948184891009417256> Use `/chatlog` or `/cl` command to report a chat!",
+                "> <:report_menu:948184891009417256> You need to record a video of it most of the time!",
+                "",
+                "<:checkmenu:948811814655893515> __**Do you want to buy or apply for a rank?**__ ",
+                "> <:close:948394548588064838> Well then, yes. Make an application ticket and we would help you about it.",
+                "> <:claim:948453007136272414> `Staff` position is not applicable, we would announce it when needed!"
+            ]
+        },
+        "appeal": {
+            "ban_label": "Miscellaneous Ban Appeal",
+            "ban_description": "Open this ticket to appeal for your miscellaneous ban!",
+            "autoclick_label": "Autoclick Ban Appeal",
+            "autoclick_description": "Open this ticket to appeal for your autoclicker ban!",
+            "mute_label": "Mute Appeal",
+            "mute_description": "Open this ticket to appeal about your mute!",
+            "placeholder": "Please select a ticket type!",
+            "embed_description": [
+                "<:checkmenu:948811814655893515>  __**Did you get banned by Autoclicking and want to appeal?**__",
+                "> <:close:948394548588064838> Make an autoclicker appeal ticket! Our staff team would do our best to help you.",
+                "> <:ban_menu:948463237991657502> Trolling in ticket would result in some punishments!",
+                "> <:report_menu:948184891009417256> Handcam is required to get unbanned, be prepared!",
+                "",
+                "<:checkmenu:948811814655893515> __**Did you get banned by Unfair Advantage and want to be free again?**__",
+                "> <:close:948394548588064838>Make a ban appeal ticket and appeal yourself! There might be a chance to get unbanned!",
+                "> <:report_menu:948184891009417256> Please fill out a template properly so our staff team, can help you!",
+                "",
+                "<:checkmenu:948811814655893515> __**Did you get muted and want to get unmuted?**__ ",
+                "> <:close:948394548588064838> Try making a mute appeal ticket and appeal yourself!",
+                "> <:report_menu:948184891009417256> We have chat logs, make sure to describe your situation!"
+            ]
+        }
+    },
+    "selectMenuCommands": {
+        "support": {
+            "channelLimit": "**Cannot make a ticket channel! Please mention staffs in other text channel!**",
+            "channelExist": "**Your ticket channel already exist!**",
+            "support": {
+                "ticketName": "support",
+                "ticketTopic": "A support ticket by {ticketOwner}! Please tell us about your problems and considerations!",
+                "ticketContent": "**Support ticket has been created!**\n",
+                "embed_description": [
+                    "<:support:948021689588002857> **Check this before using support ticket!**",
+                    "",
+                    "",
+                    "> `•` Support ticket is **NOT** an appeal ticket.",
+                    "> ",
+                    "> `•` Do **NOT** mention staffs.",
+                    "> ",
+                    "> `•` It could take up to **3 days** for staff to respond, so please be pateint."
+                ]
+            },
+            "report": {
+                "ticketName": "report",
+                "ticketTopic": "If you have found a bug or want to report someone, feel free to write in here!",
+                "ticketContent": "**Report ticket has been created!**\n",
+                "embed_description": [
+                    "<:report_menu:948184891009417256>  **Check this before using report ticket!**",
+                    "",
+                    "",
+                    "> `•` Use `/chatlog` or `/cl` command, do **NOT** report chats in here.",
+                    "> ",
+                    "> `•` All evidences should be **videos**, screenshoots are not accepted.",
+                    "> ",
+                    "> `•` Do **NOT** mention staffs.",
+                    "> ",
+                    "> `•` It could take up to **3 days** for staff to respond, so please be pateint."
+                ]
+            },
+            "application": {
+                "ticketName": "application",
+                "ticketTopic": "A rank application ticket by {ticketOwner}! Please tell us what you want to apply for!",
+                "ticketContent": "**Application ticket has been created!**\n",
+                "embed_description": [
+                    "<:unclaim:948452951498829824> **Check this before using an application ticket!**",
+                    "",
+                    "",
+                    "> `•` Only **verified** rank is applicable.",
+                    "> ",
+                    "> `•` Follow the **handcam guide** to apply for a rank.",
+                    "> ",
+                    "> `•` Do **NOT** mention staffs.",
+                    "> ",
+                    "> `•` It could take up to **3 days** for staff to respond, so please be patient."
+                ]
+            }
+        },
+        "appeal": {
+            "channelLimit": "**Cannot make a ticket channel! Please mention staffs in other text channel**",
+            "channelExist": "**Your appeal ticket already exist!**",
+            "autoclicker": {
+                "ticketName": "autoclick",
+                "ticketTopic": "Autoclick ban appeal ticket! Make sure to read handcam guide and follow it!",
+                "ticketContent": "**Autoclick ban appeal ticket has been created!**\n",
+                "embed_description": [
+                    "<:appeal:948460468039745646> **Please fill out the template below to appeal your autoclick ban!**",
+                    "",
+                    "",
+                    "<:saved:948369755092426762> **__Template for appeal__**",
+                    "",
+                    "> `•` Do you admit that you were autoclicking?",
+                    "> ",
+                    "> `•` Why should we unban you?",
+                    "",
+                    "",
+                    "<:report_menu:948184891009417256> ***Do NOT mention staffs***, *otherwise your appeal would be immediately denied.*",
+                    "<:report_menu:948184891009417256> *You must properly* ***fill out the template***, *otherwise staffs cannot help you.*",
+                    "<:report_menu:948184891009417256> *It could take up to **3 days** for staff to respond, so please be pateint.*"
+                ]
+            },
+            "ban": {
+                "ticketName": "ban",
+                "ticketTopic": "Please tell us when did you get banned, what exactly happened, and why we should unban you!",
+                "ticketContent": "**Ban appeal ticket has been created!**\n",
+                "embed_description": [
+                    "<:appeal:948460468039745646> **Please fill out the template below to appeal your ban!**",
+                    "",
+                    "",
+                    "<:saved:948369755092426762> **__Template for appeal__**",
+                    "",
+                    "> `•` Do you admit that you were hacking?",
+                    "> ",
+                    "> `•` Why should we unban you?",
+                    "",
+                    "",
+                    "<:report_menu:948184891009417256> ***Do NOT mention staffs***, *otherwise your appeal would be immediately denied.*",
+                    "<:report_menu:948184891009417256> *You must properly* ***fill out the template***, *otherwise staffs cannot help you.*",
+                    "<:report_menu:948184891009417256> *It could take up to **3 days** for staff to respond, so please be pateint.*"
+                ]
+            },
+            "mute": {
+                "ticketName": "mute",
+                "ticketTopic": "Please tell us why you should be unmuted!",
+                "ticketContent": "**Mute appeal ticket has been created!**\n",
+                "embed_description": [
+                    "<:appeal:948460468039745646> **Please fill out the template below to appeal your mute!**",
+                    "",
+                    "",
+                    "<:saved:948369755092426762> **__Template for appeal__**",
+                    "",
+                    "> `•` Do you think you deserved the mute?",
+                    "> ",
+                    "> `•` What exactly happened?",
+                    "> ",
+                    "> `•` Why should we unmute you?",
+                    "",
+                    "",
+                    "<:report_menu:948184891009417256> ***Do NOT mention staffs***, *otherwise your appeal would be immediately denied.*",
+                    "<:report_menu:948184891009417256> *You must properly* ***fill out the template***, *otherwise staffs cannot help you.*",
+                    "<:report_menu:948184891009417256> *It could take up to **3 days** for staff to respond, so please be pateint.*"
+                ]
+            }
+        }
+    }
+}
