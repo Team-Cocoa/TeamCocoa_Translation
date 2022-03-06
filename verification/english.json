@@ -1,0 +1,21 @@
+"verify": {
+            "embed_title": "How to Verify",
+            "embed_description": [
+                "**How to verify in TeamCocoa.kr Discord Server**",
+                "",
+                "`•` Join `verify.teamcocoa.kr` via minecraft.",
+                "`•` Token would be shown in your display, write that down.",
+                "`•` Go to <#949564274760630313> and type your token there.",
+                "`•` Message would appear if you are verified or if token is invalid.",
+                "`•` If bot doesnt respond or error message appears, please mention Owner/Admin",
+                "",
+                "*Token is only valid for* ***5 minutes***, *you need to regenerate token if 5 minutes passes.*"
+            ]
+        }
+
+
+
+
+// and this one is just for single sentence, please translate
+// "Click a button below to see how to verify!"
+// <#949564274760630313> is channel mention, u dont needa translate
