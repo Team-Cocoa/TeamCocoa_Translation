@@ -4,12 +4,12 @@
                 "**How to verify in TeamCocoa.kr Discord Server**",
                 "",
                 "`•` Join `verify.teamcocoa.kr` via minecraft.",
-                "`•` Token would be shown in your display, write that down.",
-                "`•` Go to <#949564274760630313> and type your token there.",
-                "`•` Message would appear if you are verified or if token is invalid.",
+                "`•` Token would be shown in your screen, write that down or remember it.",
+                "`•` Go to <#949564274760630313> channel in discord (its right here) and type your token.",
+                "`•` Message would appear whether you are verified or token is invalid, check token carefully!",
                 "`•` If bot doesnt respond or error message appears, please mention Owner/Admin",
                 "",
-                "*Token is only valid for* ***5 minutes***, *you need to regenerate token if 5 minutes passes.*"
+                "*Token is only valid for* ***5 minutes***, *you need to regenerate token if 5 minutes passes after generating.*"
             ]
         }
 
