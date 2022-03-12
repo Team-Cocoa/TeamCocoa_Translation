@@ -85,3 +85,4 @@ bed_break: '&c%player_1% &7broke &e%player_2%''s &7bed.'
 game_start: "&aThe game has started!"
 game_end: '&e%winner% &ahas won the game.'
 loading_progress_action_bar: '&8» &eLoading the map... &8> &e%progress%%'
+leave_command : '&cUse this command to leave the game.'
