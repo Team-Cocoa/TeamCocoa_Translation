@@ -15,6 +15,7 @@ lobby:
   inventory:
     challenger: '&8» &e대결 신청'
     setting: '&8» &e게임 설정'
+    kitpvp_setting: '&8» &eKitPvP 설정'
     inventory_sorting: '&8» &eKitPvP 인벤토리 수정'
   message:
     moving_to_server: '&a서버로 이동중 입니다...'

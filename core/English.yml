@@ -15,6 +15,7 @@ lobby:
   inventory:
     challenger: '&8» &eChallenger'
     setting: '&8» &eGame Setting'
+    kitpvp_setting: '&8» &eKitPvP Setting'
     inventory_sorting: '&8» &eKitPvP Inventory Sorting'
   message:
     moving_to_server: "&aMoving you to server..."
