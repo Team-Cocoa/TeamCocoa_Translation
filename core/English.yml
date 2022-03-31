@@ -10,12 +10,12 @@ lobby:
     mlgrush: '&8» &eMLGRush'
     save: '&8» &aSave'
     reset: '&8» &cReset'
-    setting: '&8» &eSetting'
-    kitpvp_inventory: '&8» Inventory Sorting'
+    setting: '&8» &eGame Setting'
+    kitpvp_inventory: '&8» &eInventory Sorting'
   inventory:
     challenger: '&8» &eChallenger'
-    setting: '&8» &eSetting'
-    inventory_sorting: '&8» &eInventory Sorting'
+    setting: '&8» &eGame Setting'
+    inventory_sorting: '&8» &eKitPvP Inventory Sorting'
   message:
     moving_to_server: "&aMoving you to server..."
     already_challenged: '&cYou already challenged to this player!'

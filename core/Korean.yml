@@ -10,12 +10,12 @@ lobby:
     mlgrush: '&8» &eMLGRush'
     save: '&8» &a저장'
     reset: '&8» &c초기화'
-    setting: '&8» &e설정'
+    setting: '&8» &e게임 설정'
     kitpvp_inventory: '&8» 인벤토리 수정'
   inventory:
     challenger: '&8» &e대결 신청'
-    setting: '&8» &e설정'
-    inventory_sorting: '&8» &e인벤토리 수정'
+    setting: '&8» &e게임 설정'
+    inventory_sorting: '&8» &eKitPvP 인벤토리 수정'
   message:
     moving_to_server: '&a서버로 이동중 입니다...'
     already_challenged: '&c이미 이 플레이어에게 대결 신청을 했습니다!'
