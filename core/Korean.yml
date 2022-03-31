@@ -5,14 +5,22 @@ language:
 
 lobby:
   item:
-    challenger: '&e대결 신청'
-    kitpvp: '&eKitPvP'
-    mlgrush: '&eMLGRush'
+    challenger: '&8» &e대결 신청'
+    kitpvp: '&8» &eKitPvP'
+    mlgrush: '&8» &eMLGRush'
+    save: '&8» &a저장'
+    reset: '&8» &c초기화'
+    setting: '&8» &e설정'
+    kitpvp_inventory: '&8» 인벤토리 수정'
   inventory:
-    challenger: '&e대결 신청'
+    challenger: '&8» &e대결 신청'
+    setting: '&8» &e설정'
+    inventory_sorting: '&8» &e인벤토리 수정'
   message:
-    kitpvp_isnt_ready: '&cKitPvP는 아직 준비중 입니다!'
     moving_to_server: '&a서버로 이동중 입니다...'
     already_challenged: '&c이미 이 플레이어에게 대결 신청을 했습니다!'
     challenge_send: '&e{0} &a에게 대결을 신청했습니다!'
     challenge_receive: '&e{0} &a가 당신에게 대결을 신청했습니다!'
+    kitpvp_inventory_success: "&a설정을 저장하였습니다."
+    kitpvp_inventory_reset: "&c설정이 초기화되었습니다."
+    kitpvp_inventory_fail: "&c오류가 발생하였습니다."

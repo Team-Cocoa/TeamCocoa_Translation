@@ -5,14 +5,22 @@ language:
 
 lobby:
   item:
-    challenger: '&eChallenger'
-    kitpvp: '&eKitPvP'
-    mlgrush: '&eMLGRush'
+    challenger: '&8» &eChallenger'
+    kitpvp: '&8» &eKitPvP'
+    mlgrush: '&8» &eMLGRush'
+    save: '&8» &aSave'
+    reset: '&8» &cReset'
+    setting: '&8» &eSetting'
+    kitpvp_inventory: '&8» Inventory Sorting'
   inventory:
-    challenger: '&eChallenger'
+    challenger: '&8» &eChallenger'
+    setting: '&8» &eSetting'
+    inventory_sorting: '&8» &eInventory Sorting'
   message:
-    kitpvp_isnt_ready: "&cKitPvP isn't ready!"
     moving_to_server: "&aMoving you to server..."
     already_challenged: '&cYou already challenged to this player!'
     challenge_send: '&aYou have successfully challenged to &e{0} &a!'
     challenge_receive: '&e{0} &ahas challenged you!'
+    kitpvp_inventory_success: '&aYour settings has been saved.'
+    kitpvp_inventory_reset: '&cYour settings has been reset.'
+    kitpvp_inventory_fail: '&cAn error has occurred.'
