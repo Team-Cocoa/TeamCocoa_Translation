@@ -28,8 +28,6 @@ message:
     saved: "&a[&dBuildFFA&a] &a設定はセーブされました。"
     reset: "&a[&dBuildFFA&a] &c設定がリセットされました。"
     error: "&a[&dBuildFFA&a] &cエラーが発生しました。"
-  join_sub_title: "&eこのコマンドを使用してキットを変更します。"
-  use_inventory_sorting: "&a[&dBuildFFA&a] &7インベントリの並び替えを利用して、インベントリのレイアウトを編集してください！"
 #message_end
 #other_start
 bar:
@@ -41,23 +39,19 @@ scoreboard:
   best_kill_streak: "&f最高の連続キル数:"
   teaming_allow: "&a&lチーミングは可能です"
   teaming_prohibit: "&4&lチーミングは禁止です"
-lore_vote_count: "&3&lVotes&f: &e&l%int%"
+lore:
+  vote_count: "&3&lVotes&f: &e&l%int%"
 #other_end
 #item_start
 item:
   inventory_sorting: "&cインベントリの並び替え"
   leave_item: "&cロビーに戻る"
-  kit: "&cキット"
   save: "&a保存"
   reset: "&cリセット"
-  kit_default: "&bデフォルト"
-  kit_archer: "&bアーチャー"
-  kit_fisher: "&bフィッシャー"
   cancel_vote: "&cReset the voting"
 #item_end
 #inventory_start
 inventory:
-  kit_selection: "&cキットの選択"
   inventory_sorting: "&cインベントリの並び替え"
   vote: "&cVote"
 #inventory_end

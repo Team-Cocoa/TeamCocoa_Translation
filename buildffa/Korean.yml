@@ -28,36 +28,41 @@ message:
     saved: "&a[&dBuildFFA&a] &a설정을 저장하였습니다."
     reset: "&a[&dBuildFFA&a] &c설정이 초기화되었습니다."
     error: "&a[&dBuildFFA&a] &c오류가 발생하였습니다."
-  join_sub_title: "&e명령어를 사용하여 키트를 변경할 수 있습니다."
-  use_inventory_sorting: "&a[&dBuildFFA&a] &7인벤토리 설정 아이템을 사용하여 인벤토리를 수정해주세요!"
+  shop:
+    already_bought: "&a[&dBuildFFA&a] &c이미 이 아이템을 구매했습니다!"
+    bought: "&a[&dBuildFFA&a] &a아이템을 구매했습니다!"
+    cannot_buy: "&a[&dBuildFFA&a] &c아이템을 사기 위한 코인이 부족합니다!"
+  other:
+    cannot_use_platform: "&a[&dBuildFFA&a] &c지금은 이 아이템을 사용할 수 없습니다!"
+    used_platform: "&a[&dBuildFFA&a] &cRescue Platform &a을 사용했습니다!"
+    receive_extra: "&a[&dBuildFFA&a] {0} &a를 받았습니다!"
 #message_end
 #other_start
 bar:
   map: "&f맵"
-  kit: "&f키트"
   time_left: "&f맵 변경시간"
 scoreboard:
   kills: "&f킬 횟수"
   best_kill_streak: "&f최대 연속 킬 횟수"
   teaming_allow: "&a&l티밍을 허용합니다"
   teaming_prohibit: "&4&l티밍을 금지합니다"
-lore_vote_count: "&3&l투표수&f: &e&l%int%"
+lore:
+  vote_count: "&3&l투표수&f: &e&l%int%"
+  price: "&3&l가격&f: &e&l{0}"
 #other_end
 #item_start
 item:
   inventory_sorting: "&c인벤토리 설정"
   leave_item: "&c로비로 돌아가기"
-  kit: "&c키트 선택"
   save: "&c저장"
   reset: "&c초기화"
-  kit_default: "&b기본 키트"
-  kit_archer: "&b아처 키트"
-  kit_fisher: "&b낚시꾼 키트"
   cancel_vote: "&c투표 취소"
+  shop: "&c상점"
+  rescue_platform: "&cRescue Platform"
 #item_end
 #inventory_start
 inventory:
-  kit_selection: "&c키트 선택"
   inventory_sorting: "&c인벤토리 설정"
   vote: "&c투표"
+  shop: "&c상점"
 #inventory_end

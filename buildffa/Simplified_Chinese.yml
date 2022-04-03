@@ -28,8 +28,6 @@ message:
     saved: "&a[&dBuildFFA&a] &a你的设置已经保存。"
     reset: "&a[&dBuildFFA&a] &c你的设置已经重置。"
     error: "&a[&dBuildFFA&a] &c发生了一个未知的错误。"
-  join_sub_title: "&e使用这个命令即可切换你的装备。"
-  use_inventory_sorting: "&a[&dBuildFFA&a] &7请使用背包设置来编辑你的背包排版。"
 #message_end
 #other_start
 bar:

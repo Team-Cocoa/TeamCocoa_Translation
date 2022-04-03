@@ -28,8 +28,6 @@ message:
     saved: "&a[&dBuildFFA&a] &a您的設定已保存"
     reset: "&a[&dBuildFFA&a] &c您的設定已重置"
     error: "&a[&dBuildFFA&a] &c發生錯誤"
-  join_sub_title: "&e使用此指令更換職業"
-  use_inventory_sorting: "&a[&dBuildFFA&a] &7請使用 &c編輯排版 &7來進行設定!"
 #message_end
 #other_start
 bar:

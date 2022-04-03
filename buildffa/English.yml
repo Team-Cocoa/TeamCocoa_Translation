@@ -28,36 +28,41 @@ message:
     saved: "&a[&dBuildFFA&a] &aYour settings has been saved."
     reset: "&a[&dBuildFFA&a] &cYour settings has been reset."
     error: "&a[&dBuildFFA&a] &cAn error has occurred."
-  join_sub_title: "&eUse this command to change your kits."
-  use_inventory_sorting: "&a[&dBuildFFA&a] &7Please use InventorySorting to edit your inventory layout!"
+  shop:
+    already_bought: "&a[&dBuildFFA&a] &cYou already bought this item!"
+    bought: "&a[&dBuildFFA&a] &aSuccessfully bought the item!"
+    cannot_buy: "&a[&dBuildFFA&a] &cYou don't have enough coins to buy it!"
+  other:
+    cannot_use_platform: "&a[&dBuildFFA&a] &cYou can't use this item now!"
+    used_platform: "&a[&dBuildFFA&a] &aYou have used &cRescue Platform!"
+    receive_extra: "&a[&dBuildFFA&a] &aYou received {0}&a!"
 #message_end
 #other_start
 bar:
   map: "&fMap"
-  kit: "&fKit"
   time_left: "&fMapChange Time"
 scoreboard:
   kills: "&fKills:"
   best_kill_streak: "&fBest Killstreak:"
   teaming_allow: "&a&lTeaming is Allowed"
   teaming_prohibit: "&4&lTeaming is Prohibited"
-lore_vote_count: "&3&lVotes&f: &e&l%int%"
+lore:
+  vote_count: "&3&lVotes&f: &e&l%int%"
+  price: "&3&lPrice&f: &e&l{0}"
 #other_end
 #item_start
 item:
   inventory_sorting: "&cInventorySorting"
   leave_item: "&cReturn to lobby"
-  kit: "&cKits"
   save: "&aSave"
   reset: "&cReset"
-  kit_default: "&bDefault"
-  kit_archer: "&bArcher"
-  kit_fisher: "&bFisher"
   cancel_vote: "&cCacel the voting"
+  shop: "&cShop"
+  rescue_platform: "&cRescue Platform"
 #item_end
 #inventory_start
 inventory:
-  kit_selection: "&cKit Selection"
   inventory_sorting: "&cInventorySorting"
   vote: "&cVote"
+  shop: "&cShop"
 #inventory_end
