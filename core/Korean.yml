@@ -4,6 +4,15 @@ language:
     first: '&7이 커맨드를 사용하여 언어를 다시 변경할 수 있습니다.'
 
 lobby:
+  scoreboard:
+    - '&a랭크'
+    - '{0}'
+    - ''
+    - '&a규칙'
+    - '&e명령어 : /rules'
+    - ' '
+    - '&9디스코드'
+    - '&e명령어 : /discord'  
   item:
     challenger: '&8» &e대결 신청'
     kitpvp: '&8» &eKitPvP'

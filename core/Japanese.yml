@@ -1,3 +1,14 @@
 language:
   change:
     message: '&a日本語に設定されました。'
+
+lobby:
+  scoreboard: 
+    - '&aランク'
+    - '{0}'
+    - ''
+    - '&aルール'
+    - '&eCommand : /rules'
+    - ''
+    - '&9ディスコード'
+    - '&eCommand : /discord'

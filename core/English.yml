@@ -4,6 +4,15 @@ language:
     first: '&7You can change your language by using this command.'
 
 lobby:
+  scoreboard:
+    - '&aRank'
+    - '{0}'
+    - ''
+    - '&aRule'
+    - '&eCommand : /rules'
+    - ''
+    - '&9Discord'
+    - '&eCommand : /discord' 
   item:
     challenger: '&8» &eChallenger'
     kitpvp: '&8» &eKitPvP'
