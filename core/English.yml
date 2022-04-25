@@ -14,7 +14,7 @@ lobby:
     - '&9Discord'
     - '&eCommand : /discord' 
   item:
-    challenger: '&8» &eChallenger'
+    challenger: '&8» &eChallenger / Queue'
     kitpvp: '&8» &eKitPvP'
     mlgrush: '&8» &eMLGRush'
     save: '&8» &aSave'
@@ -26,12 +26,22 @@ lobby:
     setting: '&8» &eGame Setting'
     kitpvp_setting: '&8» &eKitPvP Setting'
     kitpvp_kit_select: '&8» &eSelect the kit'
+    kitpvp_queue: '&8» &eQueue'
     inventory_sorting: '&8» &eKitPvP Inventory Sorting'
   message:
     moving_to_server: "&aMoving you to server..."
     already_challenged: '&cYou already challenged to this player!'
     challenge_send: '&aYou have successfully challenged to &e{0} &a!'
     challenge_receive: '&e{0} &ahas challenged you!'
+    challenge_receive: 
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - ''
+      - '&e{0} &ahas invited you to &e{1} &aKitPvP!'
+      - '&6-> &eClick here to accept! &6<-'
+      - ' '
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
     kitpvp_inventory_success: '&aYour settings has been saved.'
     kitpvp_inventory_reset: '&cYour settings has been reset.'
     kitpvp_inventory_fail: '&cAn error has occurred.'
+    kitpvp_queue_success: "&aYou have successfully joined to &e{0} &aQueue."
+    kitpvp_queue_failed: "&cYou have successfully quit to &e{0} &cQueue."

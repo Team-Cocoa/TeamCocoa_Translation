@@ -24,4 +24,3 @@ lobby:
     moving_to_server: "&a正在將你傳送至伺服器..."
     already_challenged: '&c你已經向此玩家發送過挑戰！'
     challenge_send: '&a成功向 &e{0} &a發起挑戰！'
-    challenge_receive: '&e{0} &a向你發起挑戰！'
