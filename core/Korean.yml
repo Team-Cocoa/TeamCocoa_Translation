@@ -21,6 +21,7 @@ lobby:
     reset: '&8» &c초기화'
     setting: '&8» &e게임 설정'
     kitpvp_inventory: '&8» 인벤토리 수정'
+    queue_cancel: '&8» &c대기열 나가기'
   inventory:
     challenger: '&8» &e대결 신청'
     setting: '&8» &e게임 설정'

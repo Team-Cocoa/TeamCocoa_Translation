@@ -21,6 +21,7 @@ lobby:
     reset: '&8» &cReset'
     setting: '&8» &eGame Setting'
     kitpvp_inventory: '&8» &eInventory Sorting'
+    queue_cancel: '&8» &cLeave queue'
   inventory:
     challenger: '&8» &eChallenger'
     setting: '&8» &eGame Setting'
