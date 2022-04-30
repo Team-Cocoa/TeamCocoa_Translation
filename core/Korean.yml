@@ -44,4 +44,4 @@ lobby:
     kitpvp_inventory_reset: "&c설정이 초기화되었습니다."
     kitpvp_inventory_fail: "&c오류가 발생하였습니다."
     kitpvp_queue_success: "&e{0} &a대기열에 참가했습니다."
-    kitpvp_queue_failed: "&e{0} &c대기열에서 나갔습니다."
+    kitpvp_queue_quit: "&c대기열에서 나갔습니다."

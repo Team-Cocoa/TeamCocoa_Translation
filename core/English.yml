@@ -45,4 +45,4 @@ lobby:
     kitpvp_inventory_reset: '&cYour settings has been reset.'
     kitpvp_inventory_fail: '&cAn error has occurred.'
     kitpvp_queue_success: "&aYou have successfully joined to &e{0} &aQueue."
-    kitpvp_queue_failed: "&cYou have successfully quit to &e{0} &cQueue."
+    kitpvp_queue_quit: "&cYou have successfully quit to queue."
