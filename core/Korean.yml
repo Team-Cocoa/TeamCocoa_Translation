@@ -4,6 +4,13 @@ language:
     first: '&7이 커맨드를 사용하여 언어를 다시 변경할 수 있습니다.'
 
 lobby:
+  notification:
+    cps:
+      - '&c&l!!! 경고 !!!'
+      - '&o본 서버는 오토클릭으로 인한 플레이어의 피해를 최소화 하기 위하여'
+      - '&oCPS 인증을 받지 않은 플레이어에 한해 엄격한 CPS제한을 시행중입니다.'
+      - '&oCPS 인증을 받기 위한 절차는 다음 링크를 참고해주세요.'
+      - '&e&l&ohttps://teamcocoa.kr/verification/kr'
   scoreboard:
     - '&a랭크'
     - '{0}'
