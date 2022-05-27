@@ -30,6 +30,12 @@ lobby:
     kitpvp_queue: '&8» &eQueue'
     inventory_sorting: '&8» &eKitPvP Inventory Sorting'
   message:
+    notification:
+      - '&c&l!!! Warning !!!&r'
+      - '&oWe have strict Cps limit to a player who is not verified'
+      - '&oto minimize disadvantages with Autoclicking.'
+      - '&oFollow this link to see an information to be verified.'
+      - '&e&l&ohttps://teamcocoa.kr/verification/en'
     moving_to_server: "&aMoving you to server..."
     already_challenged: '&cYou already challenged to this player!'
     challenge_send: '&aYou have successfully challenged to &e{0} &a!'
