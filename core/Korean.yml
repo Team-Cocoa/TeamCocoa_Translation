@@ -3,6 +3,14 @@ language:
     message: '&a당신의 언어가 한국어로 설정되었습니다!'
     first: '&7이 커맨드를 사용하여 언어를 다시 변경할 수 있습니다.'
 
+cps:
+  notification:
+    - '&c&l!!! 경고 !!!&r'
+    - '&o본 서버는 오토클릭 으로 인한 플레이어의 피해를 최소화 하기 위하여'
+    - '&oCps 인증을 받지 않은 플레이어에 한해 엄격한 Cps제한을 시행중입니다.'
+    - '&oCps 인증을 받기 위한 절차는 다음 링크를 참고해주세요.'
+    - '&e&l&ohttps://teamcocoa.kr/verification/kr'
+
 lobby:
   scoreboard:
     - '&a랭크'
@@ -30,12 +38,6 @@ lobby:
     kitpvp_queue: '&8» &e대기열'
     inventory_sorting: '&8» &eKitPvP 인벤토리 수정'
   message:
-    notification:
-      - '&c&l!!! 경고 !!!&r'
-      - '&o본 서버는 오토클릭 으로 인한 플레이어의 피해를 최소화 하기 위하여'
-      - '&oCps 인증을 받지 않은 플레이어에 한해 엄격한 Cps제한을 시행중입니다.'
-      - '&oCps 인증을 받기 위한 절차는 다음 링크를 참고해주세요.'
-      - '&e&l&ohttps://teamcocoa.kr/verification/kr'
     moving_to_server: '&a서버로 이동중 입니다...'
     already_challenged: '&c이미 이 플레이어에게 대결 신청을 했습니다!'
     challenge_send: '&e{0} &a에게 대결을 신청했습니다!'
