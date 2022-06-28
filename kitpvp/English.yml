@@ -1,0 +1,27 @@
+titles:
+  subtitle_draw: '&7No one has won the match'
+  subtitle_winner: '&7Has won the match'
+  game_start: '&aGO!'
+  arena_creating: '&7An arena is generating...'
+  waiting: '&7Please wait a second...'
+
+messages:
+  countdown_seconds: '&eThe round is starting in {0} seconds!'
+  countdown_second: '&eThe round is starting in {0} second!'
+  game_start: '&eThe round is started!'
+
+items:
+  spectate: '&6Spectate'
+  lobby: '&cReturn to lobby'
+
+actionbars:
+  match_end_counter: 'The match ends in &e{0}'
+
+scoreboards:
+  type: 'Type:'
+  opponent: 'Opponent:'
+  map: 'Map:'
+  match_id: 'Match ID:'
+  players: 'Players:'
+  loading: '&oLoading...'
+  countdown: '&3Countdown : '
