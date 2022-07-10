@@ -31,6 +31,7 @@ lobby:
     duel_command_offline: "&cThis player isn't online."
     duel_command_cannot: "&cYou can't use this command now!"
     duel_command_myself: "&cYou can't duel yourself!"
+    leaderboard_mod_change: "&aThe mode of leaderboard has changed to &e{0} &a!"
   holograms:
     titles:
       kit_select: "&c&lKit Select"
@@ -43,6 +44,11 @@ lobby:
       kit_editor: "&7Click this NPC to edit your kit layouts"
       back_to_spawn: "&7Click this NPC to back to spawn"
       queue_count: "&7players are queuing"
+    rankings:
+      refresh_time: "&7&oIt will be refreshed in &e{0}"
+      refreshing: "&7&oRefreshing..."
+      leaderboard_title: "&7Ranking of &e{0}"
+      wins: "&cWins"
 
 ingame:
   titles:

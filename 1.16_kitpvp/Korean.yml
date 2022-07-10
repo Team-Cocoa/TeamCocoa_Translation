@@ -31,6 +31,7 @@ lobby:
     duel_command_offline: "&c해당 플레이어는 서버에 온라인이 아닙니다."
     duel_command_cannot: "&c지금은 커맨드를 사용할 수 없습니다!"
     duel_command_myself: "&c자기 자신에게 대결 신청을 할 수 없습니다!"
+    leaderboard_mod_change: "&a랭킹의 모드가 &e{0} &a로 변경되었습니다!"
   holograms:
     titles:
       kit_select: "&c&l킷 선택"
@@ -43,6 +44,11 @@ lobby:
       kit_editor: "&7이 NPC를 클릭하여 킷을 수정할 수 있습니다"
       back_to_spawn: "&7이 NPC를 클릭하여 스폰으로 돌아갈 수 있습니다"
       queue_count: "&7명의 플레이어가 대기중"
+    rankings:
+      refresh_time: "&7&o랭킹은 &e{0} &7&o뒤에 갱신됩니다."
+      refreshing: "&7&o랭킹 갱신중..."
+      leaderboard_title: "&e{0} &7의 순위"
+      wins: "&c승"
 
 ingame:
   titles:
