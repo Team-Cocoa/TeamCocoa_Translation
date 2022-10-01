@@ -1,7 +1,7 @@
 joinme:
   cannot_use_joinme: '&a[&dJoinMe&a] &c이 명령어를 사용하기 위해선 &6프리미엄 랭크 &c가 필요합니다!'
   cooldown: '&a[&dJoinMe&a] &c명령어는 5분 마다 한 번씩 사용할 수 있습니다!'
-  invalid_server: '&a[&dJoinMe&a] &c이 서버 에서는 JoinMe를 사용할 수 없습니다!'
+  invalid_server: "&a[&dJoinMe&a] &c이 서버 에서는 JoinMe를 사용할 수 없습니다!"
   hover_message: '&a여기를 클릭하여 참가!'
   message:
     - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
