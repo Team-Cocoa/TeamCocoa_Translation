@@ -1,0 +1,3 @@
+files:
+  - source: /*/English.yml
+    translation: /%original_path%/%language%.yml
