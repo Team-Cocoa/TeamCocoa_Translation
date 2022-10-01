@@ -28,11 +28,35 @@ message:
     saved: "&a[&dBuildFFA&a] &a設定はセーブされました。"
     reset: "&a[&dBuildFFA&a] &c設定がリセットされました。"
     error: "&a[&dBuildFFA&a] &cエラーが発生しました。"
+  shop:
+    already_bought: "&a[&dBuildFFA&a] &cYou already bought this item!"
+    bought: "&a[&dBuildFFA&a] &aSuccessfully bought the item!"
+    cannot_buy: "&a[&dBuildFFA&a] &cYou don't have enough coins to buy it!"
+  other:
+    cannot_use_platform: "&a[&dBuildFFA&a] &cYou can't use this item now!"
+    used_platform: "&a[&dBuildFFA&a] &aYou have used &cRescue Platform!"
+    receive_extra: "&a[&dBuildFFA&a] &aYou received {0}&a!"
+  prestige:
+    rank_up:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - ''
+      - '&e{0} &ahas been promoted to {1} &a!&r'
+      - ' '
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+  stats:
+    message:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - '&6Stats of &e{0}&r'
+      - '&6Kills : &e{1}&r'
+      - '&6Deaths : &e{2}&r'
+      - '&6Best KillStreak : &e{3}&r'
+      - '&6Prestige : {4}&r'
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+    not_found: "&a[&dBuildFFA&a] &cThis player doesn't exist or hasn't joined the server yet."
 #message_end
 #other_start
 bar:
   map: "&fマップ"
-  kit: "&fキット"
   time_left: "&fマップ変更時間"
 scoreboard:
   kills: "&fキル数:"
@@ -41,6 +65,7 @@ scoreboard:
   teaming_prohibit: "&4&lチーミングは禁止です"
 lore:
   vote_count: "&3&lVotes&f: &e&l%int%"
+  price: "&3&lPrice&f: &e&l{0}"
 #other_end
 #item_start
 item:
@@ -49,9 +74,12 @@ item:
   save: "&a保存"
   reset: "&cリセット"
   cancel_vote: "&cReset the voting"
+  shop: "&cShop"
+  rescue_platform: "&cRescue Platform"
 #item_end
 #inventory_start
 inventory:
   inventory_sorting: "&cインベントリの並び替え"
   vote: "&cVote"
+  shop: "&cShop"
 #inventory_end
