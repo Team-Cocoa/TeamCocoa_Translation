@@ -1,0 +1,77 @@
+lobby:
+  item:
+    challenger: '&8» &eChallenger / Queue'
+    save: '&8» &aSave'
+    reset: '&8» &cReset'
+    spectate: '&8» &eSpectate'
+    queue_cancel: '&8» &cLeave queue'
+  inventory:
+    challenger: '&8» &eChallenger'
+    kitpvp_kit_select: '&8» &eSelect the kit'
+    kitpvp_queue: '&8» &eQueue'
+    inventory_sorting: '&8» &eKitPvP Inventory Sorting'
+  message:
+    moving_to_server: "&aMoving you to server..."
+    already_challenged: '&cYou already challenged to this player!'
+    challenge_send: '&aYou have successfully challenged to &e{0} &a!'
+    challenge_receive:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - ''
+      - '&e{0} &ahas invited you to &e{1} &aKitPvP!'
+      - '&6-> &eClick here to accept! &6<-'
+      - ' '
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+    kitpvp_inventory_success: '&aYour settings has been saved.'
+    kitpvp_inventory_reset: '&cYour settings has been reset.'
+    kitpvp_inventory_fail: '&cAn error has occurred.'
+    kitpvp_queue_success: "&aYou have successfully joined to &e{0} &aQueue."
+    kitpvp_queue_quit: "&cYou have successfully quit to queue."
+    select_kit_before_change: "&cPlease select a kit first before editing!"
+    duel_command_invalid: "&c/duel <Player> [Type...]"
+    duel_command_offline: "&cThis player isn't online."
+    duel_command_cannot: "&cYou can't use this command now!"
+    duel_command_myself: "&cYou can't duel yourself!"
+    leaderboard_mod_change: "&aThe mode of leaderboard has changed to &e{0} &a!"
+  holograms:
+    titles:
+      kit_select: "&c&lKit Select"
+      kit_save: "&c&lKit Save"
+      kit_editor: "&c&lKit Editor"
+      back_to_spawn: "&c&lBack to spawn"
+    descriptions:
+      kit_select: "&7Click this NPC to select a kit you want to change layout"
+      kit_save: "&7Click this NPC to save your kit layouts"
+      kit_editor: "&7Click this NPC to edit your kit layouts"
+      back_to_spawn: "&7Click this NPC to back to spawn"
+      queue_count: "&7players are queuing"
+    rankings:
+      refresh_time: "&7&oIt will be refreshed in &e{0}"
+      refreshing: "&7&oRefreshing..."
+      leaderboard_title: "&7Ranking of &e{0}"
+      wins: "&cWins"
+ingame:
+  titles:
+    subtitle_draw: '&7No one has won the match'
+    subtitle_winner: '&7Has won the match'
+    game_start: '&aGO!'
+    arena_creating: '&7An arena is generating...'
+    waiting: '&7Please wait a second...'
+  messages:
+    countdown_seconds: '&eThe round is starting in {0} seconds!'
+    countdown_second: '&eThe round is starting in {0} second!'
+    game_start: '&eThe round is started!'
+  items:
+    spectate: '&8» &eSpectate'
+    lobby: '&8» &cReturn to lobby'
+  actionbars:
+    match_end_counter: 'The match ends in &e{0}'
+  scoreboards:
+    type: 'Type:'
+    opponent: 'Opponent:'
+    map: 'Map:'
+    match_id: 'Match ID:'
+    players: 'Players:'
+    loading: '&oLoading...'
+    countdown: '&3Countdown : '
+  inventories:
+    match_list: '&8» &eMatch List'
