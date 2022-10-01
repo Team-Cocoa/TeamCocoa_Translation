@@ -9,7 +9,7 @@ lobby:
     challenger: '&8» &e대결 신청'
     kitpvp_kit_select: '&8» &e킷 선택'
     kitpvp_queue: '&8» &e대기열'
-    inventory_sorting: '&8» &eKitPvP 인벤토리 수정'
+    inventory_sorting: '&8» &eKitPvP 인벤토리 정렬'
   message:
     moving_to_server: "&a서버로 이동중 입니다..."
     already_challenged: '&c이미 이 플레이어에게 대결 신청을 했습니다!'
@@ -28,8 +28,8 @@ lobby:
     kitpvp_queue_quit: "&c대기열에서 나갔습니다."
     select_kit_before_change: "&c수정 하기 전에 먼저 킷을 선택해주세요!"
     duel_command_invalid: "&c/duel <플레이어> [종류...]"
-    duel_command_offline: "&c해당 플레이어는 서버에 온라인이 아닙니다."
-    duel_command_cannot: "&c지금은 커맨드를 사용할 수 없습니다!"
+    duel_command_offline: "&c해당 플레이어는 온라인이 아닙니다."
+    duel_command_cannot: "&c지금은 명령어를 사용할 수 없습니다!"
     duel_command_myself: "&c자기 자신에게 대결 신청을 할 수 없습니다!"
     leaderboard_mod_change: "&a랭킹의 모드가 &e{0} &a로 변경되었습니다!"
   holograms:
@@ -43,9 +43,9 @@ lobby:
       kit_save: "&7이 NPC를 클릭하여 킷을 저장할 수 있습니다"
       kit_editor: "&7이 NPC를 클릭하여 킷을 수정할 수 있습니다"
       back_to_spawn: "&7이 NPC를 클릭하여 스폰으로 돌아갈 수 있습니다"
-      queue_count: "&7명의 플레이어가 대기중"
+      queue_count: "&7명의 플레이어가 대기 중"
     rankings:
-      refresh_time: "&7&o랭킹은 &e{0} &7&o뒤에 갱신됩니다."
+      refresh_time: "&7&o랭킹은 &e{0} &7&o뒤에 갱신됩니다"
       refreshing: "&7&o랭킹 갱신중..."
       leaderboard_title: "&e{0} &7의 순위"
       wins: "&c승"
@@ -54,10 +54,10 @@ ingame:
     subtitle_draw: '&7아무도 게임에서 승리하지 못했습니다'
     subtitle_winner: '&7가 게임에서 승리하였습니다'
     game_start: '&aGO!'
-    arena_creating: '&7아레나를 생성중 입니다...'
+    arena_creating: '&7아레나를 생성 중 입니다...'
     waiting: '&7잠시만 기다려주세요...'
   messages:
-    countdown_seconds: '&e게임이 {0}초 뒤에 시작합니다!'
+    countdown_seconds: '&e게임이 {0} 초 뒤에 시작합니다!'
     countdown_second: '&e게임이 {0}초 뒤에 시작합니다!'
     game_start: '&e게임이 시작되었습니다!'
   items:
