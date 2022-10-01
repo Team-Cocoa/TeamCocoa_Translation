@@ -12,7 +12,7 @@ message:
   vote:
     success: "&a[&dSniperFFA&a] &e&l%map% &a맵에 투표하였습니다!"
     reset: "&a[&dSniperFFA&a] &c투표가 취소되었습니다."
-    invalid: "&a[&dSniperFFA&a] &c먼저 맵을 투표해주세요!"
+    invalid: "&a[&dSniperFFA&a] &c취소하려면 먼저 맵을 투표해야 합니다!"
     cannot: "&a[&dSniperFFA&a] &c지금 투표를 할 수 없습니다!"
     cannot_vote_map: "&a[&dSniperFFA&a] &c이 맵은 현재 투표할 수 없습니다!"
     ended: "&a[&dSniperFFA&a] &a맵 투표가 종료되었습니다!"
@@ -37,7 +37,7 @@ message:
 #other_start
 bar:
   map: "&f맵"
-  time_left: "&f맵 변경시간"
+  time_left: "&f맵 변경 시간"
 scoreboard:
   kills: "&f킬 횟수"
   deaths: "&f죽은 횟수:"
@@ -49,7 +49,7 @@ lore_vote_count: "&3&l투표수&f: &e&l%int%"
 #other_end
 #item_start
 item:
-  inventory_sorting: "&c인벤토리 설정"
+  inventory_sorting: "&c인벤토리 정렬"
   leave_item: "&c로비로 돌아가기"
   save: "&c저장"
   reset: "&c초기화"
