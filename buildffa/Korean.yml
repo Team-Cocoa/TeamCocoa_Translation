@@ -42,7 +42,7 @@ message:
       - ''
       - '&e{0} &a가 {1} &a로 승급했습니다!&r'
       - ' '
-      - ' '
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
   stats:
     message:
       - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
@@ -62,14 +62,14 @@ scoreboard:
   kills: "&f킬 횟수"
   best_kill_streak: "&f최대 연속 킬 횟수"
   teaming_allow: "&a&l티밍을 허용합니다"
-  teaming_prohibit: "&4&l티밍을 금지합니다"
+  teaming_prohibit: "&4&l티밍은 금지되어 있습니다"
 lore:
-  vote_count: "&3&l투표수&f: &e&l%int%"
+  vote_count: "&3&l투표 수&f: &e&l%int%"
   price: "&3&l가격&f: &e&l{0}"
 #other_end
 #item_start
 item:
-  inventory_sorting: "&c인벤토리 설정"
+  inventory_sorting: "&c인벤토리 정렬"
   leave_item: "&c로비로 돌아가기"
   save: "&c저장"
   reset: "&c초기화"
@@ -79,7 +79,7 @@ item:
 #item_end
 #inventory_start
 inventory:
-  inventory_sorting: "&c인벤토리 설정"
+  inventory_sorting: "&c인벤토리 정렬"
   vote: "&c투표"
   shop: "&c상점"
 #inventory_end
