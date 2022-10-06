@@ -28,34 +28,58 @@ message:
     saved: "&a[&dBuildFFA&a] &a您的設定已保存"
     reset: "&a[&dBuildFFA&a] &c您的設定已重置"
     error: "&a[&dBuildFFA&a] &c發生錯誤"
+  shop:
+    already_bought: "&a[&dBuildFFA&a] &cYou already bought this item!"
+    bought: "&a[&dBuildFFA&a] &aSuccessfully bought the item!"
+    cannot_buy: "&a[&dBuildFFA&a] &cYou don't have enough coins to buy it!"
+  other:
+    cannot_use_platform: "&a[&dBuildFFA&a] &cYou can't use this item now!"
+    used_platform: "&a[&dBuildFFA&a] &aYou have used &cRescue Platform!"
+    receive_extra: "&a[&dBuildFFA&a] &aYou received {0}&a!"
+  prestige:
+    rank_up:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - ''
+      - '&e{0} &ahas been promoted to {1} &a!&r'
+      - ' '
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+  stats:
+    message:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - '&6Stats of &e{0}&r'
+      - '&6Kills : &e{1}&r'
+      - '&6Deaths : &e{2}&r'
+      - '&6Best KillStreak : &e{3}&r'
+      - '&6Prestige : {4}&r'
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+    not_found: "&a[&dBuildFFA&a] &cThis player doesn't exist or hasn't joined the server yet."
 #message_end
 #other_start
 bar:
   map: "&f地圖"
-  kit: "&f目前職業"
   time_left: "&f地圖輪替時間"
 scoreboard:
   kills: "&f擊殺數:"
   best_kill_streak: "&f最佳連續擊殺數:"
   teaming_allow: "&a&l允許組隊"
   teaming_prohibit: "&4&l禁止組隊"
-lore_vote_count: "&3&l票數&f: &e&l%int%"
+lore:
+  vote_count: "&3&lVotes&f: &e&l%int%"
+  price: "&3&lPrice&f: &e&l{0}"
 #other_end
 #item_start
 item:
   inventory_sorting: "&c編輯排版"
   leave_item: "&c返回大廳"
-  kit: "&c職業"
   save: "&a保存"
   reset: "&c重置"
-  kit_default: "&b預設"
-  kit_archer: "&b弓兵"
-  kit_fisher: "&b漁夫"
   cancel_vote: "&c重置投票"
+  shop: "&cShop"
+  rescue_platform: "&cRescue Platform"
 #item_end
 #inventory_start
 inventory:
-  kit_selection: "&c選擇職業"
   inventory_sorting: "&c排版設定"
   vote: "&c投票"
+  shop: "&cShop"
 #inventory_end
