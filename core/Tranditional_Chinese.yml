@@ -1,6 +1,6 @@
 language:
   change:
-    message: '&a您的语言已被设置。'
+    message: '&aYour language has been set up to English!'
     first: '&7You can change your language by using this command.'
 cps:
   notification:

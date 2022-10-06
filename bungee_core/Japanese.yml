@@ -1,13 +1,13 @@
 joinme:
-  cannot_use_joinme: '&a[&dJoinMe&a] &c이 명령어를 사용하기 위해선 &6프리미엄 랭크 &c가 필요합니다!'
-  cooldown: '&a[&dJoinMe&a] &c명령어는 5분 마다 한 번씩 사용할 수 있습니다!'
-  invalid_server: "&a[&dJoinMe&a] &c이 서버에서는 JoinMe를 사용할 수 없습니다!"
-  hover_message: '&a여기를 클릭하여 참가!'
+  cannot_use_joinme: '&a[&dJoinMe&a] &cYou must need &6Premium Rank &cto use this command!'
+  cooldown: '&a[&dJoinMe&a] &cYou can use this command on every 5 minutes!'
+  invalid_server: "&a[&dJoinMe&a] &cYou can't use JoinMe on this server!"
+  hover_message: '&aClick here to join!'
   message:
     - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
     - ''
-    - '{0} &a가 &e{1} &a에서 플레이 중입니다!'
-    - '&6-> &e여기를 클릭하여 참가하기 &6<-'
+    - '{0} &ais playing on &e{1} &a!'
+    - '&6-> &eClick here to join &6<-'
     - ' '
     - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
 announcement:

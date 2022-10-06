@@ -1,9 +1,16 @@
 language:
   change:
     message: '&a日本語に設定されました。'
-
+    first: '&7You can change your language by using this command.'
+cps:
+  notification:
+    - '&c&l!!! Warning !!!&r'
+    - '&oWe have strict Cps limit to a player who is not verified'
+    - '&oto minimize disadvantages with Autoclicking.'
+    - '&oFollow this link to see an information to be verified.'
+    - '&e&l&ohttps://teamcocoa.kr/verification/en'
 lobby:
-  scoreboard: 
+  scoreboard:
     - '&aランク'
     - '{0}'
     - ''
@@ -12,3 +19,35 @@ lobby:
     - ''
     - '&9ディスコード'
     - '&eCommand : /discord'
+  item:
+    challenger: '&8» &eChallenger / Queue'
+    kitpvp: '&8» &eKitPvP'
+    mlgrush: '&8» &eMLGRush'
+    save: '&8» &aSave'
+    reset: '&8» &cReset'
+    setting: '&8» &eGame Setting'
+    kitpvp_inventory: '&8» &eInventory Sorting'
+    queue_cancel: '&8» &cLeave queue'
+  inventory:
+    challenger: '&8» &eChallenger'
+    setting: '&8» &eGame Setting'
+    kitpvp_setting: '&8» &eKitPvP Setting'
+    kitpvp_kit_select: '&8» &eSelect the kit'
+    kitpvp_queue: '&8» &eQueue'
+    inventory_sorting: '&8» &eKitPvP Inventory Sorting'
+  message:
+    moving_to_server: "&aMoving you to server..."
+    already_challenged: '&cYou already challenged to this player!'
+    challenge_send: '&aYou have successfully challenged to &e{0} &a!'
+    challenge_receive:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - ''
+      - '&e{0} &ahas invited you to &e{1} &aKitPvP!'
+      - '&6-> &eClick here to accept! &6<-'
+      - ' '
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+    kitpvp_inventory_success: '&aYour settings has been saved.'
+    kitpvp_inventory_reset: '&cYour settings has been reset.'
+    kitpvp_inventory_fail: '&cAn error has occurred.'
+    kitpvp_queue_success: "&aYou have successfully joined to &e{0} &aQueue."
+    kitpvp_queue_quit: "&cYou have successfully quit to queue."

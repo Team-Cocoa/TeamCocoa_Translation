@@ -19,6 +19,7 @@ already_challanged: '&c你已经发送挑战给 &e%name%&7 了。 '
 challange_command_syntax: '&e/challenge <player>'
 death_message_self: '&7你死了'
 death_message_other: '&e%player% &7死了'
+leave_command: '&cUse this command to leave the game.'
 stats_message:
   - '&7胜利数&8: &e%wins%'
   - '&7失败数&8: &e%losses%'

@@ -12,7 +12,7 @@ message:
   vote:
     success: "&a[&dBuildFFA&a] &e&l%map% &a맵에 투표하였습니다!"
     reset: "&a[&dBuildFFA&a] &c투표가 취소되었습니다."
-    invalid: "&a[&dBuildFFA&a] &c먼저 맵을 투표해주세요!"
+    invalid: "&a[&dBuildFFA&a] &c취소하여면 먼저 맵을 투표해야 합니다!"
     cannot: "&a[&dBuildFFA&a] &c지금 투표를 할 수 없습니다!"
     cannot_vote_map: "&a[&dBuildFFA&a] &c이 맵은 현재 투표할 수 없습니다!"
     ended: "&a[&dBuildFFA&a] &a맵 투표가 종료되었습니다!"
@@ -41,9 +41,8 @@ message:
       - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
       - ''
       - '&e{0} &a가 {1} &a로 승급했습니다!&r'
-      - '&e&l&o모두 축하해주세요!&r'
       - ' '
-      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - ' '
   stats:
     message:
       - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
@@ -58,7 +57,7 @@ message:
 #other_start
 bar:
   map: "&f맵"
-  time_left: "&f맵 변경시간"
+  time_left: "&f맵 변경 시간"
 scoreboard:
   kills: "&f킬 횟수"
   best_kill_streak: "&f최대 연속 킬 횟수"

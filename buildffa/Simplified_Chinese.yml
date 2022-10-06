@@ -28,34 +28,58 @@ message:
     saved: "&a[&dBuildFFA&a] &a你的设置已经保存。"
     reset: "&a[&dBuildFFA&a] &c你的设置已经重置。"
     error: "&a[&dBuildFFA&a] &c发生了一个未知的错误。"
+  shop:
+    already_bought: "&a[&dBuildFFA&a] &cYou already bought this item!"
+    bought: "&a[&dBuildFFA&a] &aSuccessfully bought the item!"
+    cannot_buy: "&a[&dBuildFFA&a] &cYou don't have enough coins to buy it!"
+  other:
+    cannot_use_platform: "&a[&dBuildFFA&a] &cYou can't use this item now!"
+    used_platform: "&a[&dBuildFFA&a] &aYou have used &cRescue Platform!"
+    receive_extra: "&a[&dBuildFFA&a] &aYou received {0}&a!"
+  prestige:
+    rank_up:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - ''
+      - '&e{0} &ahas been promoted to {1} &a!&r'
+      - ' '
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+  stats:
+    message:
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+      - '&6Stats of &e{0}&r'
+      - '&6Kills : &e{1}&r'
+      - '&6Deaths : &e{2}&r'
+      - '&6Best KillStreak : &e{3}&r'
+      - '&6Prestige : {4}&r'
+      - '&7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬&r'
+    not_found: "&a[&dBuildFFA&a] &cThis player doesn't exist or hasn't joined the server yet."
 #message_end
 #other_start
 bar:
   map: "&f地图"
-  kit: "&f装备"
   time_left: "&f地图切换时间"
 scoreboard:
   kills: "&f击杀数:"
   best_kill_streak: "&f最强连杀:"
   teaming_allow: "&a&l团队合作已经允许"
   teaming_prohibit: "&4&l团队合作已经禁止"
-lore_vote_count: "&3&lVotes&f: &e&l%int%"
+lore:
+  vote_count: "&3&lVotes&f: &e&l%int%"
+  price: "&3&lPrice&f: &e&l{0}"
 #other_end
 #item_start
 item:
   inventory_sorting: "&c背包编辑"
   leave_item: "&c回到大厅"
-  kit: "&c装备"
   save: "&a保存"
   reset: "&c重置"
-  kit_default: "&b默认"
-  kit_archer: "&b射手"
-  kit_fisher: "&b渔夫"
   cancel_vote: "&cReset the voting"
+  shop: "&cShop"
+  rescue_platform: "&cRescue Platform"
 #item_end
 #inventory_start
 inventory:
-  kit_selection: "&c装备选择"
   inventory_sorting: "&c背包编辑"
   vote: "&cVote"
+  shop: "&cShop"
 #inventory_end

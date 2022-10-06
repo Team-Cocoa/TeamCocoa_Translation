@@ -19,6 +19,7 @@ already_challanged: '&c既に&e%name%&cに試合を申し込んでいます。'
 challange_command_syntax: '&e/challenge <プレーヤー>'
 death_message_self: '&7あなたは死んでしまった。'
 death_message_other: '&e%player% &7は死んでしまった。'
+leave_command: '&cUse this command to leave the game.'
 stats_message:
   - '&7勝ち数&8: &e%wins%'
   - '&7負け数&8: &e%loses%'
