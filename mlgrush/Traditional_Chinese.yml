@@ -14,11 +14,12 @@ not_ingame: '&c你不在遊戲內!'
 spectate_join: '&7你正在觀戰'
 spectate_leave: '&7你離開了觀戰'
 player_challange_1: '&7你向 &e%name%&7發起挑戰!'
-player_challange_2: '&e%name%&7 向你發起挑戰!'
+player_challange_2: "&e%name%&7 向你發起挑戰!"
 already_challanged: '&c你已經向 &e%name%&c 發過挑戰，正在等待回覆...'
 challange_command_syntax: '&e/challange <player>'
 death_message_self: '&7你掉入了虛空'
 death_message_other: '&e%player% &7掉入了虛空'
+leave_command: '&cUse this command to leave the game.'
 stats_message:
   - '&7勝利場數&8: &e%wins%'
   - '&7失敗場數&8: &e%loses%'
