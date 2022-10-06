@@ -64,7 +64,7 @@ scoreboard:
   teaming_allow: "&a&l티밍을 허용합니다"
   teaming_prohibit: "&4&l티밍은 금지되어 있습니다"
 lore:
-  vote_count: "&3&l투표수&f: &e&l%int%"
+  vote_count: "&3&l투표 수&f: &e&l%int%"
   price: "&3&l가격&f: &e&l{0}"
 #other_end
 #item_start
