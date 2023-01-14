@@ -1,2 +1,27 @@
 messages:
   kill_log: "&e{0} &ckilled &e{1} &cby &e{2}&4❤ &e(&6{3}&e)&c."
+  kit_change: "&aYour kit has been changed to {0}"
+  start_spectate: "&aYou are spectator now."
+  stop_spectate: "&cYou are no longer spectator now."
+  join_player: "&e{0} &ahas joined!"
+  leave_player: "&e{0} &ahas left!"
+  different_kit: "&cYou can't challenge to this player since this player is on &e{0} &c!"
+  challenge: "&aYou challenged &e{0}"
+  challenged: "&e{0} &ahas challenged you!"
+  session_error: "&cAn error has occurred while creating a new session. Try again."
+titles:
+  victory: "&aVICTORY"
+  deteat: "&cDEFEAT"
+  finish_game: "&a{0} &7has won the fight &0(&7{1} &4❤&0)"
+  start_game: "&6Game Start!"
+  enemy: "&7Your enemy is &a{0}"
+items:
+  challenger: "&6&lChallenger"
+  kit_select: "&6&lKit Select"
+  spectate: "&6&lSpectate"
+inventories:
+  kit_select: "&6&lKit Select"
+scoreboards:
+  kills: "Kills"
+  deaths: "Deaths"
+  kill_streak: "KillStreak"
