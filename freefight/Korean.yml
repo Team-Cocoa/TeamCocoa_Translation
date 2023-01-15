@@ -1,2 +1,28 @@
 messages:
   kill_log: "&e{0} &c가 &e{1} &c를 죽였습니다 &e{2}&4❤ &e(&6{3}&e)&c."
+  kit_change: "&a킷이 {0} 로 변경 되었습니다."
+  start_spectate: "&a관전 상태가 되었습니다."
+  stop_spectate: "&c관전 상태에서 해제되었습니다."
+  join_player: "&e{0} &a가 접속했습니다!"
+  leave_player: "&e{0} &a가 나갔습니다!"
+  different_kit: "&c이 플레이어는 &e{0} &c킷 상태이기 때문에 대결 신청을 할 수 없습니다!"
+  challenge: "&e{0} &a에게 대결 신청을 했습니다"
+  challenged: "&e{0} &a가 대결 신청을 걸어왔습니다!"
+  session_error: "&c새 세션을 생성하는 도중 에러가 발생했습니다. 다시 시도해주세요."
+titles:
+  victory: "&a승리"
+  defeat: "&c패배"
+  finish_game: "&a{0} &7가 이겼습니다 &0(&7{1} &4❤&0)"
+  start_game: "&6대결 시작!"
+  enemy: "&7당신의 상대는 &a{0} &7입니다"
+items:
+  challenger: "&6&l대결 신청"
+  kit_select: "&6&l킷 선택"
+  spectate: "&6&l관전"
+inventories:
+  kit_select: "&6&l킷 선택"
+scoreboards:
+  kills: "킬 횟수"
+  deaths: "죽은 횟수"
+  kill_streak: "현재 연승"
+  current_kit: "현재 킷"

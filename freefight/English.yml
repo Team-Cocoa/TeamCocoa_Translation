@@ -8,11 +8,10 @@ messages:
   different_kit: "&cYou can't challenge to this player since this player is on &e{0} &c!"
   challenge: "&aYou challenged &e{0}"
   challenged: "&e{0} &ahas challenged you!"
-
   session_error: "&cAn error has occurred while creating a new session. Try again."
 titles:
   victory: "&aVICTORY"
-  deteat: "&cDEFEAT"
+  defeat: "&cDEFEAT"
   finish_game: "&a{0} &7has won the fight &0(&7{1} &4❤&0)"
   start_game: "&6Game Start!"
   enemy: "&7Your enemy is &a{0}"
@@ -26,3 +25,4 @@ scoreboards:
   kills: "Kills"
   deaths: "Deaths"
   kill_streak: "KillStreak"
+  current_kit: "Current Kit"
