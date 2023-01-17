@@ -5,7 +5,7 @@ messages:
   stop_spectate: "&cYou are no longer spectator now."
   join_player: "&e{0} &ahas joined!"
   leave_player: "&e{0} &ahas left!"
-  different_kit: "&cYou can't challenge to this player since this player is on &e{0} &c!"
+  different_kit: "&cYou can''t challenge to this player since this player is on &e{0} &c!"
   challenge: "&aYou challenged &e{0}"
   challenged: "&e{0} &ahas challenged you!"
   session_error: "&cAn error has occurred while creating a new session. Try again."
