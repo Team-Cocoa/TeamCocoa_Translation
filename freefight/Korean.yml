@@ -9,6 +9,7 @@ messages:
   challenge: "&e{0} &a에게 대결 신청을 했습니다"
   challenged: "&e{0} &a가 대결 신청을 걸어왔습니다!"
   session_error: "&c새 세션을 생성하는 도중 에러가 발생했습니다. 다시 시도해주세요."
+  cant_duel_while_spec: "&c관전 중에는 대결 신청을 할 수 없습니다!"
 titles:
   victory: "&a승리"
   defeat: "&c패배"

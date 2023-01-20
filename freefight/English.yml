@@ -9,6 +9,7 @@ messages:
   challenge: "&aYou challenged &e{0}"
   challenged: "&e{0} &ahas challenged you!"
   session_error: "&cAn error has occurred while creating a new session. Try again."
+  cant_duel_while_spec: "&cYou are not allowed to chanllenge players while spectating!"
 titles:
   victory: "&aVICTORY"
   defeat: "&cDEFEAT"
